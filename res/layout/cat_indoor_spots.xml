@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_cat_indoor_spots"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- ///////////////////////////// constants for spots ////////////////////////////// -->
+	<!-- info spot explain -->
+	<ImageView
+			android:layout_marginLeft="34px"
+			android:layout_marginTop="80px"
+			android:layout_width="267px"
+			android:layout_height="105px"
+			android:background="@drawable/cat_constant_spot_explain"
+			/>
+
+	<!-- breed button -->
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_breed"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="125px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_breed"
+			/>
+	<!-- lifestyle button -->
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_lifestyle"
+			android:layout_marginLeft="125px"
+			android:layout_marginTop="0px"
+			android:layout_width="204px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_lifestyle"
+			/>
+	<!-- find formula button -->
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_findformula"
+			android:layout_marginLeft="1016px"
+			android:layout_marginTop="13px"
+			android:layout_width="264px"
+			android:layout_height="116px"
+			android:background="@drawable/cat_constant_btn_findformula"
+			/>
+
+	<!-- image bar -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="673px"
+			android:layout_width="1280px"
+			android:layout_height="8px"
+			android:background="@drawable/cat_constant_img_bar_lifestyle"
+			/>
+
+	<!-- select explain img -->
+	<ImageView
+			android:layout_marginLeft="59px"
+			android:layout_marginTop="690px"
+			android:layout_width="1170px"
+			android:layout_height="77px"
+			android:background="@drawable/cat_indoor_sel"
+			/>
+	<!-- ////////////////// end constants //////////////////////// -->
+
+
+	<!-- food -->
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_food"
+			android:layout_marginLeft="71px"
+			android:layout_marginTop="253px"
+			android:layout_width="160px"
+			android:layout_height="208px"
+			android:background="@drawable/cat_indoor_food"
+			/>
+
+
+	<!-- cat -->
+	<ImageView
+			android:layout_marginLeft="85px"
+			android:layout_marginTop="114px"
+			android:layout_width="1000px"
+			android:layout_height="521px"
+			android:background="@drawable/cat_indoor_cat"
+			/>
+
+	<!-- spot buttons -->
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_spot3"
+			android:layout_marginLeft="412px"
+			android:layout_marginTop="381px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_spot4"
+			android:layout_marginLeft="595px"
+			android:layout_marginTop="290px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_spot1"
+			android:layout_marginLeft="725px"
+			android:layout_marginTop="330px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/cat_indoor_spots_btn_spot2"
+			android:layout_marginLeft="856px"
+			android:layout_marginTop="505px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+</RelativeLayout>

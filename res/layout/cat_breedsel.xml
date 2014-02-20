@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_cat_breedsel"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- title -->
+	<ImageView
+			android:layout_marginLeft="380px"
+			android:layout_marginTop="67px"
+			android:layout_width="530px"
+			android:layout_height="50px"
+			android:background="@drawable/cat_breed_title"
+			/>
+
+	<!-- back button -->
+	<Button
+			android:id="@+id/cat_breed_btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="270px"
+			android:layout_height="80px"
+			android:background="@drawable/cat_breed_btn_back"
+			/>
+
+
+	<!--  ////////////////// breed buttons  ///////////////////// -->
+	<!-- main coon -->
+	<Button
+			android:id="@+id/cat_breed_btn_maincoon"
+			android:layout_marginLeft="120px"
+			android:layout_marginTop="240px"
+			android:layout_width="250px"
+			android:layout_height="350px"
+			android:background="@drawable/cat_breed_btn_maincoon"
+			/>
+	<!-- persian -->
+	<Button
+			android:id="@+id/cat_breed_btn_persian"
+			android:layout_marginLeft="390px"
+			android:layout_marginTop="240px"
+			android:layout_width="250px"
+			android:layout_height="350px"
+			android:background="@drawable/cat_breed_btn_persian"
+			/>
+	<!-- ragdoll -->
+	<Button
+			android:id="@+id/cat_breed_btn_ragdoll"
+			android:layout_marginLeft="660px"
+			android:layout_marginTop="240px"
+			android:layout_width="250px"
+			android:layout_height="350px"
+			android:background="@drawable/cat_breed_btn_ragdoll"
+			/>
+	<!-- siamese -->
+	<Button
+			android:id="@+id/cat_breed_btn_siamese"
+			android:layout_marginLeft="930px"
+			android:layout_marginTop="240px"
+			android:layout_width="250px"
+			android:layout_height="350px"
+			android:background="@drawable/cat_breed_btn_siamese"
+			/>
+</RelativeLayout>

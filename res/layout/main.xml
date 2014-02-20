@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layoutMain"
+              android:orientation="vertical"
+              android:layout_width="1280px"
+              android:layout_height="800px"
+              android:background="@drawable/start_bg"
+        >
+
+    <!-- top most background colors -->
+    <RelativeLayout
+            android:layout_width="640px"
+            android:layout_height="150px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px"
+            android:background="@color/BreedBgColor"
+            >
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="640px"
+            android:layout_height="150px"
+            android:layout_marginLeft="640px"
+            android:layout_marginTop="0px"
+            android:background="@color/LifestyleBgColor"
+            >
+    </RelativeLayout>
+
+    <!-- corners -->
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_breed_left_corner"
+            />
+
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="617px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_breed_right_corner"
+            />
+
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="640px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_lifestyle_left_corner"
+            />
+
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="1257px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_lifestyle_right_corner"
+            />
+
+
+    <!-- cats -->
+    <ImageView
+            android:layout_width="482px"
+            android:layout_height="494px"
+            android:layout_marginLeft="109px"
+            android:layout_marginTop="244px"
+            android:background="@drawable/start_breed_cat"
+            />
+
+    <ImageView
+            android:layout_width="425px"
+            android:layout_height="479px"
+            android:layout_marginLeft="747px"
+            android:layout_marginTop="243px"
+            android:background="@drawable/start_lifestyle_cat"
+            />
+
+    <!-- titles -->
+    <ImageView
+            android:layout_width="344px"
+            android:layout_height="105px"
+            android:layout_marginLeft="142px"
+            android:layout_marginTop="21px"
+            android:background="@drawable/start_breed_title"
+            />
+    <ImageView
+            android:layout_width="411px"
+            android:layout_height="107px"
+            android:layout_marginLeft="746px"
+            android:layout_marginTop="23px"
+            android:background="@drawable/start_lifestyle_title"
+            />
+    <ImageView
+            android:layout_width="417px"
+            android:layout_height="65px"
+            android:layout_marginLeft="101px"
+            android:layout_marginTop="165px"
+            android:background="@drawable/start_breed_explain"
+            />
+    <ImageView
+            android:layout_width="518px"
+            android:layout_height="68px"
+            android:layout_marginLeft="692px"
+            android:layout_marginTop="165px"
+            android:background="@drawable/start_lifestyle_explain"
+            />
+
+
+
+    <!-- select buttons -->
+
+    <Button
+            android:id = "@+id/start_btn_breed"
+            android:layout_width="640px"
+            android:layout_height="800px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px"
+            android:background="@android:color/transparent"
+            />
+
+    <Button
+            android:id = "@+id/start_btn_lifestyle"
+            android:layout_width="640px"
+            android:layout_height="800px"
+            android:layout_marginLeft="640px"
+            android:layout_marginTop="0px"
+            android:background="@android:color/transparent"
+            />
+
+</RelativeLayout>

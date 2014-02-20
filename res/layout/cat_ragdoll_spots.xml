@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_cat_ragdoll_spots"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- ///////////////////////////// constants for spots ////////////////////////////// -->
+	<!-- info spot explain -->
+	<ImageView
+			android:layout_marginLeft="34px"
+			android:layout_marginTop="80px"
+			android:layout_width="267px"
+			android:layout_height="105px"
+			android:background="@drawable/cat_constant_spot_explain"
+			/>
+
+	<!-- breed button -->
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_breed"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="125px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_breed"
+			/>
+	<!-- lifestyle button -->
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_lifestyle"
+			android:layout_marginLeft="125px"
+			android:layout_marginTop="0px"
+			android:layout_width="204px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_lifestyle"
+			/>
+	<!-- find formula button -->
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_findformula"
+			android:layout_marginLeft="1016px"
+			android:layout_marginTop="13px"
+			android:layout_width="264px"
+			android:layout_height="116px"
+			android:background="@drawable/cat_constant_btn_findformula"
+			/>
+
+	<!-- image bar -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="673px"
+			android:layout_width="1280px"
+			android:layout_height="8px"
+			android:background="@drawable/cat_constant_img_bar"
+			/>
+
+	<!-- select explain img -->
+	<ImageView
+			android:layout_marginLeft="90px"
+			android:layout_marginTop="700px"
+			android:layout_width="1080px"
+			android:layout_height="58px"
+			android:background="@drawable/cat_ragdoll_sel"
+			/>
+	<!-- ////////////////// end constants //////////////////////// -->
+
+
+	<!-- food -->
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_food"
+			android:layout_marginLeft="92px"
+			android:layout_marginTop="402px"
+			android:layout_width="151px"
+			android:layout_height="166px"
+			android:background="@drawable/cat_ragdoll_food"
+			/>
+
+
+	<!-- cat -->
+	<ImageView
+			android:layout_marginLeft="365px"
+			android:layout_marginTop="34px"
+			android:layout_width="581px"
+			android:layout_height="617px"
+			android:background="@drawable/cat_ragdoll_cat"
+			/>
+
+	<!-- spot buttons -->
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_spot1"
+			android:layout_marginLeft="703px"
+			android:layout_marginTop="315px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_spot3"
+			android:layout_marginLeft="445px"
+			android:layout_marginTop="317px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/cat_ragdoll_spots_btn_spot2"
+			android:layout_marginLeft="622px"
+			android:layout_marginTop="505px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+</RelativeLayout>

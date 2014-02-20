@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.general.mediaplayer.FindFormula"
+          android:versionCode="1"
+          android:versionName="1.0"
+          android:largeHeap="true"
+        >
+
+    <uses-sdk android:minSdkVersion="15"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
+
+        <activity android:name="com.general.mediaplayer.FindFormula.ScanMediaActivity"
+                  android:label="@string/app_name"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+                  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+                >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+		<activity android:name=".VideoActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".BaseActivity"/>
+
+		<activity android:name=".Cat.CatBreedSelActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatLifestyleSelActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatMaineCoonSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatDetailViewActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@style/NoTitleDialog"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatPersianSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatRagdollSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatSiameseSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatKittenSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatIndoorSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatSpayedSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatSpecialSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatWetSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+
+		<activity android:name=".Cat.CatKittenFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatIndoorFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatSpayedFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatSpecialFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Cat.CatWetFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".BaseSpotsActivity"/>
+
+
+	</application>
+</manifest>

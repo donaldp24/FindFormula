@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layoutCatDetailView"
+                android:orientation="vertical"
+                android:layout_width="1004px"
+                android:layout_height="628px"
+                android:background="@drawable/tooltip_back">
+
+    <TextView
+            android:id="@+id/txtHeadLine"
+            android:layout_width="800px"
+            android:layout_height="90px"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="40px"
+            android:gravity="left"
+            android:textColor="@color/RedColor"
+            android:textSize="68px" />
+
+    <TextView
+            android:id="@+id/txtCopy"
+            android:layout_width="900px"
+            android:layout_height="360px"
+            android:layout_marginLeft="60px"
+            android:layout_marginTop="135px"
+            android:scrollbars="vertical"
+            android:textColor="@color/DarkGrayColor"
+            android:textSize="40px" />
+
+    <TextView
+            android:id="@+id/txtLink"
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:layout_marginLeft="60px"
+            android:layout_below="@+id/txtCopy"
+            android:gravity="left"
+            android:textColor="@color/RedColor"
+            android:textSize="56px" />
+    <TextView
+            android:id="@+id/txtLink1"
+            android:layout_width="100px"
+            android:layout_height="80px"
+            android:layout_toRightOf="@+id/txtLink"
+            android:layout_alignTop="@+id/txtLink"
+            android:gravity="left"
+            android:textColor="@color/RedColor"
+            android:text=">"
+            android:textSize="56px" />
+	<Button
+			android:id="@+id/btnLink"
+			android:layout_width="900px"
+			android:layout_height="106px"
+			android:layout_alignLeft="@+id/txtCopy"
+			android:layout_alignTop="@+id/txtLink"
+			android:background="@android:color/transparent"
+			/>
+    <Button
+            android:id="@+id/btnClose"
+            android:layout_width="78px"
+            android:layout_height="72px"
+            android:layout_marginLeft="900px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/tooltip_close"
+    />
+</RelativeLayout>
