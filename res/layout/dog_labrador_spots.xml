@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_labrador_spots"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- ///////////////////////////// constants for spots ////////////////////////////// -->
+	<!-- info spot explain -->
+	<ImageView
+			android:layout_marginLeft="34px"
+			android:layout_marginTop="80px"
+			android:layout_width="267px"
+			android:layout_height="105px"
+			android:background="@drawable/cat_constant_spot_explain"
+			/>
+
+	<!-- breed button -->
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_breed"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="125px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_breed"
+			/>
+	<!-- lifestyle button -->
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_lifestyle"
+			android:layout_marginLeft="125px"
+			android:layout_marginTop="0px"
+			android:layout_width="204px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_lifestyle"
+			/>
+	<!-- find formula button -->
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_findformula"
+			android:layout_marginLeft="1016px"
+			android:layout_marginTop="13px"
+			android:layout_width="264px"
+			android:layout_height="116px"
+			android:background="@drawable/cat_constant_btn_findformula"
+			/>
+
+	<!-- image bar -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="673px"
+			android:layout_width="1280px"
+			android:layout_height="8px"
+			android:background="@drawable/cat_constant_img_bar"
+			/>
+
+	<!-- select explain img -->
+	<ImageView
+			android:layout_marginLeft="44px"
+			android:layout_marginTop="687px"
+			android:layout_width="1193px"
+			android:layout_height="63px"
+			android:background="@drawable/dog_labrador_sel"
+			/>
+	<!-- ////////////////// end constants //////////////////////// -->
+
+
+	<!-- food -->
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_food"
+			android:layout_marginLeft="97px"
+			android:layout_marginTop="405px"
+			android:layout_width="160px"
+			android:layout_height="200px"
+			android:background="@drawable/dog_labrador_food"
+			/>
+
+
+	<!-- dog -->
+	<ImageView
+			android:layout_marginLeft="272px"
+			android:layout_marginTop="12px"
+			android:layout_width="760px"
+			android:layout_height="650px"
+			android:background="@drawable/dog_labrador_dog"
+			/>
+
+	<!-- spot buttons -->
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_spot1"
+			android:layout_marginLeft="520px"
+			android:layout_marginTop="320px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_spot2"
+			android:layout_marginLeft="406px"
+			android:layout_marginTop="420px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_spot3"
+			android:layout_marginLeft="510px"
+			android:layout_marginTop="124px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/dog_labrador_spots_btn_spot4"
+			android:layout_marginLeft="810px"
+			android:layout_marginTop="510px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+</RelativeLayout>

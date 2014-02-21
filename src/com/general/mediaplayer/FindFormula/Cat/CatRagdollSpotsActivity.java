@@ -59,7 +59,7 @@ public class CatRagdollSpotsActivity extends BaseSpotsActivity {
         });
 
         DataManager dataMgr = CommonData.GetDataMgr();
-        if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_FOR_CAT) == false)
+        if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
         catSpotsList = dataMgr.getSpotsFromName("RAGDOLL", CommonData.CATEGORY_CAT);

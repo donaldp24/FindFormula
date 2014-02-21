@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_formula"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- ///////////////////////////// constants for formula ////////////////////////////// -->
+	<!-- title -->
+	<ImageView
+			android:layout_marginLeft="385px"
+			android:layout_marginTop="64px"
+			android:layout_width="519px"
+			android:layout_height="50px"
+			android:background="@drawable/cat_constant_formula_title"
+			/>
+
+	<!-- back button -->
+	<Button
+			android:id="@+id/dog_formula_btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="270px"
+			android:layout_height="80px"
+			android:background="@drawable/cat_breed_btn_back"
+			/>
+
+	<!-- image bar -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="673px"
+			android:layout_width="1280px"
+			android:layout_height="8px"
+			android:background="@drawable/cat_constant_img_bar"
+			/>
+
+	<!-- select explain img -->
+	<ImageView
+			android:id="@+id/dog_formula_img_sel"
+			android:layout_marginLeft="44px"
+			android:layout_marginTop="687px"
+			android:layout_width="1193px"
+			android:layout_height="63px"
+			android:background="@drawable/dog_chihuahua_sel"
+			/>
+	<!-- ////////////////// end constants //////////////////////// -->
+
+	<!-- good -->
+	<ImageView
+			android:id="@+id/dog_formula_img_formula"
+			android:layout_marginLeft="461px"
+			android:layout_marginTop="141px"
+			android:layout_width="368px"
+			android:layout_height="534px"
+			android:background="@drawable/cat_mainecoon_formula"
+			/>
+
+</RelativeLayout>

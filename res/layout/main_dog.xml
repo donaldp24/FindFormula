@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_main_dog"
+              android:orientation="vertical"
+              android:layout_width="1280px"
+              android:layout_height="800px"
+              android:background="@drawable/start_bg"
+        >
+
+    <!-- top most background colors -->
+    <RelativeLayout
+            android:layout_width="640px"
+            android:layout_height="150px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px"
+            android:background="@color/LifestyleBgColor"
+            >
+    </RelativeLayout>
+    <RelativeLayout
+            android:layout_width="640px"
+            android:layout_height="150px"
+            android:layout_marginLeft="640px"
+            android:layout_marginTop="0px"
+            android:background="@color/BreedBgColor"
+            >
+    </RelativeLayout>
+
+    <!-- corners -->
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_lifestyle_left_corner"
+            />
+
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="617px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_lifestyle_right_corner"
+            />
+
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="640px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_breed_left_corner"
+            />
+
+    <ImageView
+            android:layout_width="23px"
+            android:layout_height="25px"
+            android:layout_marginLeft="1257px"
+            android:layout_marginTop="149px"
+            android:background="@drawable/start_breed_right_corner"
+            />
+
+
+    <!-- cats -->
+    <ImageView
+            android:layout_width="495px"
+            android:layout_height="483px"
+            android:layout_marginLeft="35px"
+            android:layout_marginTop="244px"
+            android:background="@drawable/start_lifestyle_dog"
+            />
+
+    <ImageView
+            android:layout_width="284px"
+            android:layout_height="494px"
+            android:layout_marginLeft="792px"
+            android:layout_marginTop="237px"
+            android:background="@drawable/start_breed_dog"
+            />
+
+    <!-- titles -->
+    <ImageView
+            android:layout_width="411px"
+            android:layout_height="107px"
+            android:layout_marginLeft="110px"
+            android:layout_marginTop="21px"
+            android:background="@drawable/start_lifestyle_title"
+            />
+    <ImageView
+            android:layout_width="344px"
+            android:layout_height="105px"
+            android:layout_marginLeft="777px"
+            android:layout_marginTop="23px"
+            android:background="@drawable/start_breed_title"
+            />
+    <ImageView
+            android:layout_width="518px"
+            android:layout_height="68px"
+            android:layout_marginLeft="55px"
+            android:layout_marginTop="160px"
+            android:background="@drawable/start_lifestyle_explain"
+            />
+    <ImageView
+            android:layout_width="417px"
+            android:layout_height="65px"
+            android:layout_marginLeft="747px"
+            android:layout_marginTop="160px"
+            android:background="@drawable/start_breed_explain"
+            />
+
+    <!-- select buttons -->
+
+    <Button
+            android:id = "@+id/start_btn_lifestyle"
+            android:layout_width="640px"
+            android:layout_height="800px"
+            android:layout_marginLeft="0px"
+            android:layout_marginTop="0px"
+            android:background="@android:color/transparent"
+            />
+
+    <Button
+            android:id = "@+id/start_btn_breed"
+            android:layout_width="640px"
+            android:layout_height="800px"
+            android:layout_marginLeft="640px"
+            android:layout_marginTop="0px"
+            android:background="@android:color/transparent"
+            />
+
+</RelativeLayout>

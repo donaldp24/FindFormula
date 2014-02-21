@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_german_spots"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- ///////////////////////////// constants for spots ////////////////////////////// -->
+	<!-- info spot explain -->
+	<ImageView
+			android:layout_marginLeft="34px"
+			android:layout_marginTop="80px"
+			android:layout_width="267px"
+			android:layout_height="105px"
+			android:background="@drawable/cat_constant_spot_explain"
+			/>
+
+	<!-- breed button -->
+	<Button
+			android:id="@+id/dog_german_spots_btn_breed"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="125px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_breed"
+			/>
+	<!-- lifestyle button -->
+	<Button
+			android:id="@+id/dog_german_spots_btn_lifestyle"
+			android:layout_marginLeft="125px"
+			android:layout_marginTop="0px"
+			android:layout_width="204px"
+			android:layout_height="113px"
+			android:background="@drawable/cat_constant_btn_lifestyle"
+			/>
+	<!-- find formula button -->
+	<Button
+			android:id="@+id/dog_german_spots_btn_findformula"
+			android:layout_marginLeft="1016px"
+			android:layout_marginTop="13px"
+			android:layout_width="264px"
+			android:layout_height="116px"
+			android:background="@drawable/cat_constant_btn_findformula"
+			/>
+
+	<!-- image bar -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="673px"
+			android:layout_width="1280px"
+			android:layout_height="8px"
+			android:background="@drawable/cat_constant_img_bar"
+			/>
+
+	<!-- select explain img -->
+	<ImageView
+			android:layout_marginLeft="44px"
+			android:layout_marginTop="687px"
+			android:layout_width="1193px"
+			android:layout_height="63px"
+			android:background="@drawable/dog_german_sel"
+			/>
+	<!-- ////////////////// end constants //////////////////////// -->
+
+
+	<!-- food -->
+	<Button
+			android:id="@+id/dog_german_spots_btn_food"
+			android:layout_marginLeft="97px"
+			android:layout_marginTop="405px"
+			android:layout_width="160px"
+			android:layout_height="200px"
+			android:background="@drawable/dog_german_food"
+			/>
+
+
+	<!-- dog -->
+	<ImageView
+			android:layout_marginLeft="269px"
+			android:layout_marginTop="12px"
+			android:layout_width="837px"
+			android:layout_height="651px"
+			android:background="@drawable/dog_german_dog"
+			/>
+
+	<!-- spot buttons -->
+	<Button
+			android:id="@+id/dog_german_spots_btn_spot1"
+			android:layout_marginLeft="665px"
+			android:layout_marginTop="168px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/dog_german_spots_btn_spot2"
+			android:layout_marginLeft="358px"
+			android:layout_marginTop="507px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/dog_german_spots_btn_spot3"
+			android:layout_marginLeft="713px"
+			android:layout_marginTop="263px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+	<Button
+			android:id="@+id/dog_german_spots_btn_spot4"
+			android:layout_marginLeft="873px"
+			android:layout_marginTop="457px"
+			android:layout_width="110px"
+			android:layout_height="110px"
+			android:background="@drawable/cat_constant_btn_spot"
+			/>
+
+</RelativeLayout>

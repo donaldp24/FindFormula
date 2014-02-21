@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_lifestylesel"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@drawable/cat_lifestyle_bg">
+
+	<!--  ////////////////// lifestyle buttons  ///////////////////// -->
+	<!-- xsmall -->
+	<Button
+			android:id="@+id/dog_lifestyle_btn_xsmall"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="256px"
+			android:layout_height="800px"
+			android:background="@drawable/dog_lifestyle_btn_xsmall"
+			/>
+	<!-- mini -->
+	<Button
+			android:id="@+id/dog_lifestyle_btn_mini"
+			android:layout_marginLeft="256px"
+			android:layout_marginTop="0px"
+			android:layout_width="256px"
+			android:layout_height="800px"
+			android:background="@drawable/dog_lifestyle_btn_mini"
+			/>
+	<!-- medium -->
+	<Button
+			android:id="@+id/dog_lifestyle_btn_medium"
+			android:layout_marginLeft="512px"
+			android:layout_marginTop="0px"
+			android:layout_width="256px"
+			android:layout_height="800px"
+			android:background="@drawable/dog_lifestyle_btn_medium"
+			/>
+	<!-- maxi -->
+	<Button
+			android:id="@+id/dog_lifestyle_btn_maxi"
+			android:layout_marginLeft="768px"
+			android:layout_marginTop="0px"
+			android:layout_width="256px"
+			android:layout_height="800px"
+			android:background="@drawable/dog_lifestyle_btn_maxi"
+			/>
+	<!-- giant -->
+	<Button
+			android:id="@+id/dog_lifestyle_btn_giant"
+			android:layout_marginLeft="1024px"
+			android:layout_marginTop="0px"
+			android:layout_width="256px"
+			android:layout_height="800px"
+			android:background="@drawable/dog_lifestyle_btn_giant"
+			/>
+
+	<!-- cats -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="210px"
+			android:layout_width="1280px"
+			android:layout_height="558px"
+			android:background="@drawable/dog_lifestyle_dogs"
+			/>
+
+	<!-- back button -->
+	<Button
+			android:id="@+id/dog_lifestyle_btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="270px"
+			android:layout_height="80px"
+			android:background="@drawable/cat_lifestyle_btn_back"
+			/>
+
+</RelativeLayout>

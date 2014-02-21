@@ -15,7 +15,7 @@ public class CommonData {
     public static final String CAT_XML_FILENAME = "Cat.xml";
     public static final String DOG_XML_FILENAME = "Dog.xml";
 
-    public static final int APP_FOR_CAT = CATEGORY_CAT;
+    public static final int APP_CATEGORY = CATEGORY_DOG;
 
     public static DataManager dataMgr = null;
 
@@ -52,6 +52,15 @@ public class CommonData {
     public static final int BREED_RAGDOLL = 2;
     public static final int BREED_SIAMESE = 3;
 
+    public static final int BREED_BEAGLE = 0;
+    public static final int BREED_BULLDOG = 1;
+    public static final int BREED_CHIHUAHUA = 2;
+    public static final int BREED_GERMAN = 3;
+    public static final int BREED_LABRADOR = 4;
+    public static final int BREED_SHIH = 5;
+    public static final int BREED_WESTIE = 6;
+    public static final int BREED_YORKIE = 7;
+
     public static final int SELECTED_BREED = BREED_MAINECOON;
 
     public static final int LIFESTYLE_KITTEN = 0;
@@ -59,6 +68,12 @@ public class CommonData {
     public static final int LIFESTYLE_SPAYED = 2;
     public static final int LIFESTYLE_SPECIAL = 3;
     public static final int LIFESTYLE_WET = 4;
+
+    public static final int LIFESTYLE_XSMALL = 0;
+    public static final int LIFESTYLE_MINI = 1;
+    public static final int LIFESTYLE_MEDIUM = 2;
+    public static final int LIFESTYLE_MAXI = 3;
+    public static final int LIFESTYLE_GIANT = 4;
 
     public static final int SELECTED_LIFESTYLE = LIFESTYLE_KITTEN;
 

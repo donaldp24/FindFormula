@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_pressed="false" android:drawable="@drawable/dog_labrador_food_normal" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/dog_labrador_food_down" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/dog_labrador_food_down" />
+    <item android:drawable="@drawable/dog_labrador_food_normal" />
+</selector>

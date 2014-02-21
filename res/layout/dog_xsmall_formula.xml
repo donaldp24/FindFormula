@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_xsmall_formula"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- ///////////////////////////// constants for formula ////////////////////////////// -->
+	<!-- title -->
+	<ImageView
+			android:layout_marginLeft="385px"
+			android:layout_marginTop="64px"
+			android:layout_width="519px"
+			android:layout_height="50px"
+			android:background="@drawable/cat_constant_formula_title_lifestyle"
+			/>
+
+	<!-- back button -->
+	<Button
+			android:id="@+id/dog_xsmall_formula_btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="270px"
+			android:layout_height="80px"
+			android:background="@drawable/cat_breed_btn_back"
+			/>
+
+	<!-- image bar -->
+	<ImageView
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="673px"
+			android:layout_width="1280px"
+			android:layout_height="8px"
+			android:background="@drawable/cat_constant_img_bar_lifestyle"
+			/>
+
+	<!-- select explain img -->
+	<ImageView
+			android:layout_marginLeft="82px"
+			android:layout_marginTop="702px"
+			android:layout_width="1125px"
+			android:layout_height="45px"
+			android:background="@drawable/dog_xsmall_sel"
+			/>
+	<!-- ////////////////// end constants //////////////////////// -->
+
+	<!-- good -->
+	<ImageView
+			android:layout_marginLeft="301px"
+			android:layout_marginTop="136px"
+			android:layout_width="663px"
+			android:layout_height="513px"
+			android:background="@drawable/dog_xsmall_formula"
+			/>
+
+</RelativeLayout>

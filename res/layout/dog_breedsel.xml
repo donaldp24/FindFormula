@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_breedsel"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@android:color/white">
+
+	<!-- title -->
+	<ImageView
+			android:layout_marginLeft="380px"
+			android:layout_marginTop="40px"
+			android:layout_width="530px"
+			android:layout_height="50px"
+			android:background="@drawable/cat_breed_title"
+			/>
+
+	<!-- back button -->
+	<Button
+			android:id="@+id/dog_breed_btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="270px"
+			android:layout_height="80px"
+			android:background="@drawable/cat_breed_btn_back"
+			/>
+
+
+	<!--  ////////////////// breed buttons  ///////////////////// -->
+	<!-- beagle -->
+	<Button
+			android:id="@+id/dog_breed_btn_beagle"
+			android:layout_marginLeft="157px"
+			android:layout_marginTop="126px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_beagle"
+			/>
+	<!-- bulldog -->
+	<Button
+			android:id="@+id/dog_breed_btn_bulldog"
+			android:layout_marginLeft="417px"
+			android:layout_marginTop="126px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_bulldog"
+			/>
+	<!-- chihuahua -->
+	<Button
+			android:id="@+id/dog_breed_btn_chihuahua"
+			android:layout_marginLeft="677px"
+			android:layout_marginTop="126px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_chihuahua"
+			/>
+	<!-- german -->
+	<Button
+			android:id="@+id/dog_breed_btn_german"
+			android:layout_marginLeft="937px"
+			android:layout_marginTop="126px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_german"
+			/>
+	<!-- labrador -->
+	<Button
+			android:id="@+id/dog_breed_btn_labrador"
+			android:layout_marginLeft="157px"
+			android:layout_marginTop="423px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_labrador"
+			/>
+	<!-- shih -->
+	<Button
+			android:id="@+id/dog_breed_btn_shih"
+			android:layout_marginLeft="417px"
+			android:layout_marginTop="423px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_shih"
+			/>
+	<!-- westie -->
+	<Button
+			android:id="@+id/dog_breed_btn_westie"
+			android:layout_marginLeft="677px"
+			android:layout_marginTop="423px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_westie"
+			/>
+	<!-- yorkie -->
+	<Button
+			android:id="@+id/dog_breed_btn_yorkie"
+			android:layout_marginLeft="937px"
+			android:layout_marginTop="423px"
+			android:layout_width="231px"
+			android:layout_height="287px"
+			android:background="@drawable/dog_breed_btn_yorkie"
+			/>
+</RelativeLayout>

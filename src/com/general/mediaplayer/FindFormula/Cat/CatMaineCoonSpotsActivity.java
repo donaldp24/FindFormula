@@ -1,6 +1,5 @@
 package com.general.mediaplayer.FindFormula.Cat;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -60,7 +59,7 @@ public class CatMaineCoonSpotsActivity extends BaseSpotsActivity {
         });
 
         DataManager dataMgr = CommonData.GetDataMgr();
-        if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_FOR_CAT) == false)
+        if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
         catSpotsList = dataMgr.getSpotsFromName("MAINE COON", CommonData.CATEGORY_CAT);

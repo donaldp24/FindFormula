@@ -7,11 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 import com.general.mediaplayer.FindFormula.Cat.CatBreedSelActivity;
-import com.general.mediaplayer.FindFormula.Cat.CatDetailViewActivity;
 import com.general.mediaplayer.FindFormula.Cat.CatLifestyleSelActivity;
-import com.general.mediaplayer.FindFormula.STInfo.STDetailInfo;
-
-import java.util.ArrayList;
+import com.general.mediaplayer.FindFormula.Dog.DogBreedSelActivity;
+import com.general.mediaplayer.FindFormula.Dog.DogLifestyleSelActivity;
 
 public class ScanMediaActivity extends BaseActivity {
     /**
@@ -20,11 +18,15 @@ public class ScanMediaActivity extends BaseActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+
+        if (CommonData.APP_CATEGORY == CommonData.CATEGORY_CAT)
+            setContentView(R.layout.main);
+        else
+            setContentView(R.layout.main_dog);
 
         /*-------------*/
         DataManager dataMgr = CommonData.GetDataMgr();
-        if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_FOR_CAT) == false)
+        if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
         // breed button
@@ -32,11 +34,20 @@ public class ScanMediaActivity extends BaseActivity {
         btnBreed.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (CommonData.APP_FOR_CAT == 1)
+                if (CommonData.APP_CATEGORY == CommonData.CATEGORY_CAT)
                 {
                     _appPrefs.setSelectedBasic(CommonData.BASIC_BREED);
 
                     Intent intent = new Intent(ScanMediaActivity.this, CatBreedSelActivity.class);
+                    startActivity(intent);
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                    finish();
+                }
+                else
+                {
+                    _appPrefs.setSelectedBasic(CommonData.BASIC_BREED);
+
+                    Intent intent = new Intent(ScanMediaActivity.this, DogBreedSelActivity.class);
                     startActivity(intent);
                     overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
                     finish();
@@ -49,11 +60,20 @@ public class ScanMediaActivity extends BaseActivity {
         btnLifestyle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (CommonData.APP_FOR_CAT == 1)
+                if (CommonData.APP_CATEGORY == CommonData.CATEGORY_CAT)
                 {
                     _appPrefs.setSelectedBasic(CommonData.BASIC_LIFESTYLE);
 
                     Intent intent = new Intent(ScanMediaActivity.this, CatLifestyleSelActivity.class);
+                    startActivity(intent);
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                    finish();
+                }
+                else
+                {
+                    _appPrefs.setSelectedBasic(CommonData.BASIC_LIFESTYLE);
+
+                    Intent intent = new Intent(ScanMediaActivity.this, DogLifestyleSelActivity.class);
                     startActivity(intent);
                     overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
                     finish();
@@ -63,6 +83,9 @@ public class ScanMediaActivity extends BaseActivity {
 
         Point ptSize = ResolutionSet.getScreenSize(ScanMediaActivity.this, false, false);
         ResolutionSet._instance.setResolution(ptSize.x, ptSize.y, false);
-        ResolutionSet._instance.iterateChild(findViewById(R.id.layoutMain));
+        if (CommonData.APP_CATEGORY == CommonData.CATEGORY_CAT)
+            ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_cat));
+        else
+            ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_dog));
     }
 }
