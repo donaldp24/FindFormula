@@ -87,7 +87,7 @@
 
 	<!-- spot buttons -->
 	<Button
-			android:id="@+id/dog_xsmall_spots_btn_spot1"
+			android:id="@+id/dog_xsmall_spots_btn_spot2"
 			android:layout_marginLeft="666px"
 			android:layout_marginTop="326px"
 			android:layout_width="110px"
@@ -96,7 +96,7 @@
 			/>
 
 	<Button
-			android:id="@+id/dog_xsmall_spots_btn_spot2"
+			android:id="@+id/dog_xsmall_spots_btn_spot1"
 			android:layout_marginLeft="498px"
 			android:layout_marginTop="427px"
 			android:layout_width="110px"

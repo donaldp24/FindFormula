@@ -4,19 +4,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import com.general.mediaplayer.FindFormula.BaseActivity;
-import com.general.mediaplayer.FindFormula.R;
-import com.general.mediaplayer.FindFormula.ResolutionSet;
-import com.general.mediaplayer.FindFormula.TransformManager;
+import com.general.mediaplayer.FindFormula.*;
 
 /**
  * Created by donald on 2/19/14.
  */
-public class CatWetFormulaActivity extends BaseActivity {
+public class CatWetFormulaActivity extends BaseFormulaActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cat_wet_formula);
+
+        subId = CommonData.SUBID_WET;
+
         // Button Back
         Button btnBack = (Button)findViewById(R.id.cat_wet_formula_btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {

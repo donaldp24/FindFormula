@@ -66,25 +66,11 @@ public class DogShihSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        dogSpotsList = dataMgr.getSpotsFromName("shih", CommonData.APP_CATEGORY);
+        dogSpotsList = dataMgr.getSpotsFromName("Shih Tzu", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.dog_shih_spots_btn_spot1);
         btnSpot1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (dogSpotsList != null && dogSpotsList.size() > 0)
-                {
-                    STDetailInfo info = dogSpotsList.get(0);
-                    final CatDetailViewDialog dialog = new CatDetailViewDialog(DogShihSpotsActivity.this, R.style.NoTitleDialog);
-                    dialog.show();
-                    dialog.ShowInfo(info.headline, info.copy, info.link);
-                }
-            }
-        });
-
-        Button btnSpot2 = (Button)findViewById(R.id.dog_shih_spots_btn_spot2);
-        btnSpot2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (dogSpotsList != null && dogSpotsList.size() > 1)
@@ -96,13 +82,40 @@ public class DogShihSpotsActivity extends BaseSpotsActivity {
                 }
             }
         });
-        Button btnSpot3 = (Button)findViewById(R.id.dog_shih_spots_btn_spot3);
-        btnSpot3.setOnClickListener(new View.OnClickListener() {
+
+        Button btnSpot2 = (Button)findViewById(R.id.dog_shih_spots_btn_spot2);
+        btnSpot2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (dogSpotsList != null && dogSpotsList.size() > 2)
                 {
                     STDetailInfo info = dogSpotsList.get(2);
+                    final CatDetailViewDialog dialog = new CatDetailViewDialog(DogShihSpotsActivity.this, R.style.NoTitleDialog);
+                    dialog.show();
+                    dialog.ShowInfo(info.headline, info.copy, info.link);
+                }
+            }
+        });
+        Button btnSpot3 = (Button)findViewById(R.id.dog_shih_spots_btn_spot3);
+        btnSpot3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (dogSpotsList != null && dogSpotsList.size() > 3)
+                {
+                    STDetailInfo info = dogSpotsList.get(3);
+                    final CatDetailViewDialog dialog = new CatDetailViewDialog(DogShihSpotsActivity.this, R.style.NoTitleDialog);
+                    dialog.show();
+                    dialog.ShowInfo(info.headline, info.copy, info.link);
+                }
+            }
+        });
+        Button btnSpotFood = (Button)findViewById(R.id.dog_shih_spots_btn_food);
+        btnSpotFood.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (dogSpotsList != null && dogSpotsList.size() > 0)
+                {
+                    STDetailInfo info = dogSpotsList.get(0);
                     final CatDetailViewDialog dialog = new CatDetailViewDialog(DogShihSpotsActivity.this, R.style.NoTitleDialog);
                     dialog.show();
                     dialog.ShowInfo(info.headline, info.copy, info.link);

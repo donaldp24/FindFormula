@@ -62,7 +62,7 @@ public class CatPersianSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        catSpotsList = dataMgr.getSpotsFromName("PERSIAN", CommonData.CATEGORY_CAT);
+        catSpotsList = dataMgr.getSpotsFromName("PERSIAN", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.cat_persian_spots_btn_spot1);

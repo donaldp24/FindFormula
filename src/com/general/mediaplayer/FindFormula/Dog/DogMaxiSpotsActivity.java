@@ -64,7 +64,7 @@ public class DogMaxiSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        dogSpotsList = dataMgr.getSpotsFromName("maxi", CommonData.APP_CATEGORY);
+        dogSpotsList = dataMgr.getSpotsFromName("MAXI", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.dog_maxi_spots_btn_spot1);
@@ -120,21 +120,6 @@ public class DogMaxiSpotsActivity extends BaseSpotsActivity {
                 }
             }
         });
-
-        Button btnSpotFood = (Button)findViewById(R.id.dog_maxi_spots_btn_food);
-        btnSpotFood.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (dogSpotsList != null && dogSpotsList.size() > 4)
-                {
-                    STDetailInfo info = dogSpotsList.get(4);
-                    final CatDetailViewDialog dialog = new CatDetailViewDialog(DogMaxiSpotsActivity.this, R.style.NoTitleDialog);
-                    dialog.show();
-                    dialog.ShowInfo(info.headline, info.copy, info.link);
-                }
-            }
-        });
-
 
         ResolutionSet._instance.iterateChild(findViewById(R.id.layout_dog_maxi_spots));
     }

@@ -87,7 +87,7 @@
 
 	<!-- spot buttons -->
 	<Button
-			android:id="@+id/dog_yorkie_spots_btn_spot1"
+			android:id="@+id/dog_yorkie_spots_btn_spot3"
 			android:layout_marginLeft="500px"
 			android:layout_marginTop="66px"
 			android:layout_width="110px"
@@ -96,7 +96,7 @@
 			/>
 
 	<Button
-			android:id="@+id/dog_yorkie_spots_btn_spot2"
+			android:id="@+id/dog_yorkie_spots_btn_spot1"
 			android:layout_marginLeft="450px"
 			android:layout_marginTop="202px"
 			android:layout_width="110px"
@@ -105,7 +105,7 @@
 			/>
 
 	<Button
-			android:id="@+id/dog_yorkie_spots_btn_spot3"
+			android:id="@+id/dog_yorkie_spots_btn_spot2"
 			android:layout_marginLeft="360px"
 			android:layout_marginTop="552px"
 			android:layout_width="110px"

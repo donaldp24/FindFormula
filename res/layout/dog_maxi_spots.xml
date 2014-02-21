@@ -87,7 +87,7 @@
 
 	<!-- spot buttons -->
 	<Button
-			android:id="@+id/dog_maxi_spots_btn_spot1"
+			android:id="@+id/dog_maxi_spots_btn_spot4"
 			android:layout_marginLeft="668px"
 			android:layout_marginTop="236px"
 			android:layout_width="110px"
@@ -96,7 +96,7 @@
 			/>
 
 	<Button
-			android:id="@+id/dog_maxi_spots_btn_spot2"
+			android:id="@+id/dog_maxi_spots_btn_spot1"
 			android:layout_marginLeft="460px"
 			android:layout_marginTop="365px"
 			android:layout_width="110px"
@@ -114,7 +114,7 @@
 			/>
 
 	<Button
-			android:id="@+id/dog_maxi_spots_btn_spot4"
+			android:id="@+id/dog_maxi_spots_btn_spot2"
 			android:layout_marginLeft="440px"
 			android:layout_marginTop="90px"
 			android:layout_width="110px"

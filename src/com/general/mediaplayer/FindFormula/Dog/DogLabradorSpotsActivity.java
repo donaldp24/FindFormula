@@ -66,7 +66,7 @@ public class DogLabradorSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        dogSpotsList = dataMgr.getSpotsFromName("labrador", CommonData.APP_CATEGORY);
+        dogSpotsList = dataMgr.getSpotsFromName("Labrador Retriever", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.dog_labrador_spots_btn_spot1);
@@ -100,22 +100,35 @@ public class DogLabradorSpotsActivity extends BaseSpotsActivity {
         btnSpot3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (dogSpotsList != null && dogSpotsList.size() > 2)
+                if (dogSpotsList != null && dogSpotsList.size() > 3)
                 {
-                    STDetailInfo info = dogSpotsList.get(2);
+                    STDetailInfo info = dogSpotsList.get(3);
                     final CatDetailViewDialog dialog = new CatDetailViewDialog(DogLabradorSpotsActivity.this, R.style.NoTitleDialog);
                     dialog.show();
                     dialog.ShowInfo(info.headline, info.copy, info.link);
                 }
             }
         });
-        Button btnSpotFood = (Button)findViewById(R.id.dog_labrador_spots_btn_spot4);
+        Button btnSpot4 = (Button)findViewById(R.id.dog_labrador_spots_btn_spot4);
+        btnSpot4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (dogSpotsList != null && dogSpotsList.size() > 4)
+                {
+                    STDetailInfo info = dogSpotsList.get(4);
+                    final CatDetailViewDialog dialog = new CatDetailViewDialog(DogLabradorSpotsActivity.this, R.style.NoTitleDialog);
+                    dialog.show();
+                    dialog.ShowInfo(info.headline, info.copy, info.link);
+                }
+            }
+        });
+        Button btnSpotFood = (Button)findViewById(R.id.dog_labrador_spots_btn_food);
         btnSpotFood.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (dogSpotsList != null && dogSpotsList.size() > 3)
+                if (dogSpotsList != null && dogSpotsList.size() > 2)
                 {
-                    STDetailInfo info = dogSpotsList.get(3);
+                    STDetailInfo info = dogSpotsList.get(2);
                     final CatDetailViewDialog dialog = new CatDetailViewDialog(DogLabradorSpotsActivity.this, R.style.NoTitleDialog);
                     dialog.show();
                     dialog.ShowInfo(info.headline, info.copy, info.link);

@@ -11,7 +11,7 @@ import com.general.mediaplayer.FindFormula.*;
 /**
  * Created by donald on 2/19/14.
  */
-public class CatFormulaActivity extends BaseActivity {
+public class CatFormulaActivity extends BaseFormulaActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,18 +34,23 @@ public class CatFormulaActivity extends BaseActivity {
                 {
                     case CommonData.BREED_MAINECOON:
                         intent = new Intent(CatFormulaActivity.this, CatMaineCoonSpotsActivity.class);
+                        subId = CommonData.SUBID_MAINECOON;
                         break;
                     case CommonData.BREED_PERSIAN:
                         intent = new Intent(CatFormulaActivity.this, CatPersianSpotsActivity.class);
+                        subId = CommonData.SUBID_PERSIAN;
                         break;
                     case CommonData.BREED_RAGDOLL:
                         intent = new Intent(CatFormulaActivity.this, CatRagdollSpotsActivity.class);
+                        subId = CommonData.SUBID_RAGDOLL;
                         break;
                     case CommonData.BREED_SIAMESE:
                         intent = new Intent(CatFormulaActivity.this, CatSiameseSpotsActivity.class);
+                        subId = CommonData.SUBID_SIAMESE;
                         break;
                     default:
                         intent = new Intent(CatFormulaActivity.this, CatMaineCoonSpotsActivity.class);
+                        subId = 0;
                         break;
                 }
 

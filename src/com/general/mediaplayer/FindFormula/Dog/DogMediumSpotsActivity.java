@@ -64,7 +64,7 @@ public class DogMediumSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        dogSpotsList = dataMgr.getSpotsFromName("medium", CommonData.APP_CATEGORY);
+        dogSpotsList = dataMgr.getSpotsFromName("MEDIUM", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.dog_medium_spots_btn_spot1);

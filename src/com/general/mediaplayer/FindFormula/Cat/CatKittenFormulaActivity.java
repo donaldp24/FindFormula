@@ -10,11 +10,14 @@ import com.general.mediaplayer.FindFormula.*;
 /**
  * Created by donald on 2/19/14.
  */
-public class CatKittenFormulaActivity extends BaseActivity {
+public class CatKittenFormulaActivity extends BaseFormulaActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cat_kitten_formula);
+
+        subId = CommonData.SUBID_KITTEN;
+
         // Button Back
         Button btnBack = (Button)findViewById(R.id.cat_kitten_formula_btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {

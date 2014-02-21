@@ -1,0 +1,531 @@
+<HotSpotsInfo>
+<Item>
+	<UID>1</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Beagle</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>TORSO</HOTSPOTNAME>
+	<HEADLINE>HEALTHY WEIGHT</HEADLINE>
+	<COPY>The calorie content of the BEAGLE ADULT formula is optimized to help these eager eaters maintain an ideal weight.</COPY>
+	<LINK>Find BEAGLE Formula</LINK>
+</Item>
+<Item>
+	<UID>2</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Beagle</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>JOINT SUPPORT</HEADLINE>
+	<COPY>His sturdy and compact body, combined with his natural tendency to put on weight, are among the factors that can put stress on his joints. The BEAGLE ADULT formula helps support healthy bones and joints with EPA & DHA, plus glucosamine and chondroitin.</COPY>
+	<LINK>Find BEAGLE Formula</LINK>
+</Item>
+<Item>
+	<UID>3</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Beagle</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>Exclusive kibble shape is designed to encourage chewing and slow down the rate of ingestion for these voracious eaters.</COPY>
+	<LINK>Find BEAGLE Formula</LINK>
+</Item>
+<Item>
+	<UID>4</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Bulldog</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>ADULT BOTTOM</HOTSPOTNAME>
+	<HEADLINE>ODOR REDUCTION</HEADLINE>
+	<COPY>The BULLDOG ADULT formula uses highly digestible proteins, precise levels of fiber and high quality carbohydrate sources to help reduce intestinal fermentation, which can lead to digestive disorders, flatulence and unpleasant stool odor.</COPY>
+	<LINK>Find BULLDOG Formula</LINK>
+</Item>
+<Item>
+	<UID>5</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Bulldog</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>ADULT LEG</HOTSPOTNAME>
+	<HEADLINE>BONE AND JOINT HEALTH</HEADLINE>
+	<COPY>The Bulldog's heavy structure can put stress on its joints. The BULLDOG ADULT formula helps support healthy bones and joints with EPA & DHA, plus glucosamine and chondroitin.</COPY>
+	<LINK>Find BULLDOG Formula</LINK>
+</Item>
+<Item>
+	<UID>6</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Bulldog</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>BULLDOG ADULT kibble is uniquely shaped to be easier for short muzzles to grasp and chew.</COPY>
+	<LINK>Find BULLDOG Formula</LINK>
+</Item>
+<Item>
+	<UID>7</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Bulldog</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>PUPPY TORSO</HOTSPOTNAME>
+	<HEADLINE>PUPPY</HEADLINE>
+	<COPY>Also available in BULLDOG PUPPY formula.</COPY>
+	<LINK>Find BULLDOG Formula</LINK>
+</Item>
+<Item>
+	<UID>8</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Chihuahua</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>ADULT MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>Chihuahuas can be picky eaters, judging both the smell and taste of food. Formulas include natural flavors and aromas to appeal to finicky appetites.</COPY>
+	<LINK>Find CHIHUAHUA Formula</LINK>
+</Item>
+<Item>
+	<UID>9</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Chihuahua</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>ADULT BOTTOM</HOTSPOTNAME>
+	<HEADLINE>STOOL AND ODOR REDUCTION</HEADLINE>
+	<COPY>Highly digestible proteins, optimum fiber levels and high quality carbohydrates help reduce stool odor and amount.</COPY>
+	<LINK>Find CHIHUAHUA Formula</LINK>
+</Item>
+<Item>
+	<UID>10</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Chihuahua</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>The size, shape and density of the kibble is specially developed for the small and fragile jaw of the Chihuahua.</COPY>
+	<LINK>Find CHIHUAHUA Formula</LINK>
+</Item>
+<Item>
+	<UID>11</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Chihuahua</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>PUPPY TORSO</HOTSPOTNAME>
+	<HEADLINE>PUPPY</HEADLINE>
+	<COPY>Also available in CHIHUAHUA PUPPY formula.</COPY>
+	<LINK>Find CHIHUAHUA Formula</LINK>
+</Item>
+<Item>
+	<UID>12</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>German Shepherd</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>ADULT STOMACH</HOTSPOTNAME>
+	<HEADLINE>DIGESTIVE PERFORMANCE</HEADLINE>
+	<COPY>Because of his physiology, the German Shepherd can suffer from digestive sensitivity and poor stool quality. GERMAN SHEPHERD ADULT supports the breed’s more delicate digestive system with highly digestible proteins and a specific combination of fibers.</COPY>
+	<LINK>Find GERMAN SHEPHERD Formula</LINK>
+</Item>
+<Item>
+	<UID>13</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>German Shepherd</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>ADULT LEG</HOTSPOTNAME>
+	<HEADLINE>BONE AND JOINT HEALTH</HEADLINE>
+	<COPY>The GERMAN SHEPHERD ADULT formula helps support their working bones and joints with Glucosamine, Chondroitin, EPA & DHA.</COPY>
+	<LINK>Find GERMAN SHEPHERD Formula</LINK>
+</Item>
+<Item>
+	<UID>14</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>German Shepherd</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>ADULT FUR</HOTSPOTNAME>
+	<HEADLINE>SKIN HEALTH</HEADLINE>
+	<COPY>GERMAN SHEPHERD ADULT helps support the skin’s role as a barrier with an exclusive complex that includes EPA & DHA and Vitamin A.</COPY>
+	<LINK>Find GERMAN SHEPHERD Formula</LINK>
+</Item>
+<Item>
+	<UID>15</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>German Shepherd</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>PUPPY LEG</HOTSPOTNAME>
+	<HEADLINE>PUPPY</HEADLINE>
+	<COPY>Also available in GERMAN SHEPHERD PUPPY formula.</COPY>
+	<LINK>Find GERMAN SHEPHERD Formula</LINK>
+</Item>
+<Item>
+	<UID>16</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>German Shepherd</NAME>
+	<HOTSPOT>5</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>The GERMAN SHEPHERD ADULT kibble is designed to help slow the rate of ingestion by encouraging the dog to chew.</COPY>
+	<LINK>Find GERMAN SHEPHERD Formula</LINK>
+</Item>
+<Item>
+	<UID>17</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Labrador Retriever</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>ADULT STOMACH</HOTSPOTNAME>
+	<HEADLINE>HEALTHY WEIGHT</HEADLINE>
+	<COPY>The Labrador Retriever’s appetite requires a carefully controlled diet to avoid becoming overweight.  The LABRADOR RETRIEVER ADULT formula helps maintain the dog’s ideal weight with an appropriate calorie content.</COPY>
+	<LINK>Find LABRADOR RETRIEVER Formula</LINK>
+</Item>
+<Item>
+	<UID>18</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Labrador Retriever</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>ADULT LEG</HOTSPOTNAME>
+	<HEADLINE>BONE AND JOINT HEALTH</HEADLINE>
+	<COPY>The Labrador’s solid body and strong bones are factors that can put stress on his joints. LABRADOR RETRIEVER ADULT formula contains supplemental levels of glucosamine and chondroitin, along with precise levels of calcium and phosphorous, to help support healthy bones and joints.</COPY>
+	<LINK>Find LABRADOR RETRIEVER Formula</LINK>
+</Item>
+<Item>
+	<UID>19</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Labrador Retriever</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>LABRADOR RETRIEVER ADULT formula kibble is designed to reduce the rate of food intake, which helps prevent gulping and encourages chewing.</COPY>
+	<LINK>Find LABRADOR RETRIEVER Formula</LINK>
+</Item>
+<Item>
+	<UID>20</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Labrador Retriever</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>ADULT FUR</HOTSPOTNAME>
+	<HEADLINE>HEALTHY SKIN AND COAT</HEADLINE>
+	<COPY>The LABRADOR RETRIEVER ADULT formula helps support the skin’s role as a barrier with an exclusive complex of nutrients and helps maintain skin and coat health (EPA and DHA).</COPY>
+	<LINK>Find LABRADOR RETRIEVER Formula</LINK>
+</Item>
+<Item>
+	<UID>21</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Labrador Retriever</NAME>
+	<HOTSPOT>5</HOTSPOT>
+	<HOTSPOTNAME>PUPPY STOMACH</HOTSPOTNAME>
+	<HEADLINE>PUPPY</HEADLINE>
+	<COPY>Also available in LABRADOR RETRIEVER PUPPY formula.</COPY>
+	<LINK>Find LABRADOR RETRIEVER Formula</LINK>
+</Item>
+<Item>
+	<UID>22</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Shih Tzu</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>The specially designed “L-shaped kibble” is easier for the brachycephalic (short muzzle) Shih Tzu to grasp and encourages chewing.</COPY>
+	<LINK>Find SHIH TZU Formula</LINK>
+</Item>
+<Item>
+	<UID>23</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Shih Tzu</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>ADULT FUR</HOTSPOTNAME>
+	<HEADLINE>COAT HEALTH</HEADLINE>
+	<COPY>Shih Tzus are recognized for their beautiful, flowing coats that grow continuously. SHIH TZU ADULT helps maintain the unique coat of this breed with Omega 3 & 6 fatty acids and biotin.</COPY>
+	<LINK>Find SHIH TZU Formula</LINK>
+</Item>
+<Item>
+	<UID>24</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Shih Tzu</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>ADULT STOMACH</HOTSPOTNAME>
+	<HEADLINE>DIGESTIVE HEALTH</HEADLINE>
+	<COPY>Formulated with highly digestible proteins, plus a balance of soluble and insoluble fibers, to improve digestion and help reduce stool odor and volume.</COPY>
+	<LINK>Find SHIH TZU Formula</LINK>
+</Item>
+<Item>
+	<UID>25</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Shih Tzu</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>PUPPY FUR</HOTSPOTNAME>
+	<HEADLINE>PUPPY</HEADLINE>
+	<COPY>Also available in SHIH TZU PUPPY formula.</COPY>
+	<LINK>Find SHIH TZU Formula</LINK>
+</Item>
+<Item>
+	<UID>26</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>West Highland Terrier</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>The kibble’s size, shape and texture is specially designed for the West Highland White Terrier to make it easier to grasp and encourages chewing.</COPY>
+	<LINK>Find WEST HIGHLAND TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>27</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>West Highland Terrier</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>FUR</HOTSPOTNAME>
+	<HEADLINE>HEALTHY COAT</HEADLINE>
+	<COPY>Compared to other breeds, West Highland Terriers have a rough coat and delicate skin. This formula contains specific amino acids to support hair growth, plus fatty acids and flax seeds to support skin health.</COPY>
+	<LINK>Find WEST HIGHLAND TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>28</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>West Highland Terrier</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>Many West Highland Terriers are picky eaters. The formula is designed with exceptional flavors and aromas to satisfy and appeal to their finicky appetites.</COPY>
+	<LINK>Find WEST HIGHLAND TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>29</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>West Highland Terrier</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>EAR</HOTSPOTNAME>
+	<HEADLINE>SKIN HEALTH</HEADLINE>
+	<COPY>West Highland Terriers can have a more delicate skin than other breeds. This formula contains particular nutrients, including EPA & DHA, to help support the skin’s role as a natural barrier and to keep skin healthy.</COPY>
+	<LINK>Find WEST HIGHLAND TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>30</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Yorkshire Terrier</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>ADULT MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>YORKSHIRE TERRIER ADULT formula includes natural flavors and aromas designed to appeal to a Yorkshire Terrier’s finicky appetite.</COPY>
+	<LINK>Find YORKSHIRE TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>31</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Yorkshire Terrier</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>ADULT FUR</HOTSPOTNAME>
+	<HEADLINE>SILKY COAT CARE</HEADLINE>
+	<COPY>A Yorkshire Terrier’s coat grows in single strands without an undercoat. Omega 3 & 6 fatty acids and biotin help to support their unique silky coat and keep it healthy.</COPY>
+	<LINK>Find YORKSHIRE TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>32</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Yorkshire Terrier</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>ADULT HEAD/BRAIN</HOTSPOTNAME>
+	<HEADLINE>ATTENTION TO AGING</HEADLINE>
+	<COPY>The Yorkshire Terrier is known to have a long life expectancy. YORKSHIRE TERRIER ADULT is formulated with antioxidants to help maintain healthy cells and support healthy aging.</COPY>
+	<LINK>Find YORKSHIRE TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>33</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Yorkshire Terrier</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>PUPPY LEG</HOTSPOTNAME>
+	<HEADLINE>PUPPY</HEADLINE>
+	<COPY>Also available in YORKSHIRE TERRIER PUPPY formula.</COPY>
+	<LINK>Find YORKSHIRE TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>34</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>Yorkshire Terrier</NAME>
+	<HOTSPOT>5</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>The YORKSHIRE TERRIER ADULT formula kibble has a size, shape and texture that makes it easier for the Yorkshire Terrier to grasp and encourages chewing.</COPY>
+	<LINK>Find YORKSHIRE TERRIER Formula</LINK>
+</Item>
+<Item>
+	<UID>35</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>X-SMALL</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>Kibble is extra small in size and designed for the miniature jaw of dogs less than 8 pounds.</COPY>
+	<LINK>Find X-SMALL DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>36</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>X-SMALL</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>TARGETED ENERGY CONTENT</HEADLINE>
+	<COPY>X-SMALL formulas support the high energy needs of very small dogs by adapting nutrients through each life stage.</COPY>
+	<LINK>Find X-SMALL DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>37</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>X-SMALL</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>STOMACH</HOTSPOTNAME>
+	<HEADLINE>HEALTHY DIGESTION</HEADLINE>
+	<COPY>Highly digestible proteins and precise levels of select fibers help to regulate and ease intestinal transit.</COPY>
+	<LINK>Find X-SMALL DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>38</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>X-SMALL</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>Formulas include natural flavors and aromas to appeal to very small dogs with picky appetites.</COPY>
+	<LINK>Find X-SMALL DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>39</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MINI</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>TAILOR-MADE KIBBLE</HEADLINE>
+	<COPY>Small kibble, ideal for delicate teeth, also creates a brushing effect during chewing to help reduce the formation of plaque.</COPY>
+	<LINK>Find MINI DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>40</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MINI</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>STOMACH</HOTSPOTNAME>
+	<HEADLINE>DIGESTIVE HEALTH</HEADLINE>
+	<COPY>MINI INDOOR formulas are developed with highly digestible proteins, optimal fiber levels and high quality carbohydrates to help support healthy digestion and reduce stool odor and volume.</COPY>
+	<LINK>Find MINI DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>41</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MINI</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>FUR</HOTSPOTNAME>
+	<HEADLINE>HEALTHY COAT</HEADLINE>
+	<COPY>MINI formulas have adapted levels of EPA and DHA to help support a beautiful coat and healthy skin.</COPY>
+	<LINK>Find MINI DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>42</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MINI</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>Formulas include natural flavors and aromas to appeal to small dogs with picky appetites.</COPY>
+	<LINK>Find MINI DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>43</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MEDIUM</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>STOMACH</HOTSPOTNAME>
+	<HEADLINE>HIGH DIGESTIBILITY</HEADLINE>
+	<COPY>Formulas help promote good digestibility with very high quality proteins and precise levels of fibers.</COPY>
+	<LINK>Find MEDIUM DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>44</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MEDIUM</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>Satisfies the appetites of medium breed dogs with carefully selected aromas.</COPY>
+	<LINK>Find MEDIUM DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>45</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MEDIUM</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>TORSO</HOTSPOTNAME>
+	<HEADLINE>NATURAL DEFENSES</HEADLINE>
+	<COPY>Formulas support a medium-sized dog’s natural defenses with an antioxidant complex and prebiotics.</COPY>
+	<LINK>Find MEDIUM DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>46</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MEDIUM</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>FUR</HOTSPOTNAME>
+	<HEADLINE>COAT HEALTH</HEADLINE>
+	<COPY>Formulas containing nutrients that help support healthy skin and coat.</COPY>
+	<LINK>Find MEDIUM DOG Formulas</LINK>
+</Item>
+<Item>
+	<UID>47</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MAXI</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>BONE AND JOINT SUPPORT</HEADLINE>
+	<COPY>Formulas include precise blends of nutrients to support the large breed dog’s bones and joints through each life-stage.</COPY>
+	<LINK>Find MAXI DOG Formula</LINK>
+</Item>
+<Item>
+	<UID>48</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MAXI</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>MOUTH</HOTSPOTNAME>
+	<HEADLINE>HIGHLY PALATABLE</HEADLINE>
+	<COPY>Satisfies the appetite of large breed dogs with carefully selected aromas.</COPY>
+	<LINK>Find MAXI DOG Formula</LINK>
+</Item>
+<Item>
+	<UID>49</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MAXI</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>FUR</HOTSPOTNAME>
+	<HEADLINE>HEALTHY COAT</HEADLINE>
+	<COPY>MAXI formulas have adapted levels of EPA and DHA to help support a beautiful coat and healthy skin.</COPY>
+	<LINK>Find MAXI DOG Formula</LINK>
+</Item>
+<Item>
+	<UID>50</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>MAXI</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>STOMACH</HOTSPOTNAME>
+	<HEADLINE>HIGH DIGESTIBILITY</HEADLINE>
+	<COPY>MAXI Formulas help promote healthy digestion with high quality proteins and precise levels of fibers.</COPY>
+	<LINK>Find MAXI DOG Formula</LINK>
+</Item>
+<Item>
+	<UID>51</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>GIANT</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>BONE & JOINT SUPPORT</HEADLINE>
+	<COPY>Formulas include precise blends of nutrients to support a Giant-sized dog’s bones and joints through each life-stage.</COPY>
+	<LINK>Find GIANT DOG Formula</LINK>
+</Item>
+<Item>
+	<UID>51</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>GIANT</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>STOMACH</HOTSPOTNAME>
+	<HEADLINE>HIGH DIGESTIBILITY</HEADLINE>
+	<COPY>GIANT Formulas help promote good digestibility with high quality proteins and precise levels of fibers.</COPY>
+	<LINK>Find GIANT DOG Formula</LINK>
+</Item>
+<Item>
+	<UID>52</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>GIANT</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>TORSO</HOTSPOTNAME>
+	<HEADLINE>NATURAL DEFENSES</HEADLINE>
+	<COPY>Formulas support a Giant-sized dog’s natural defenses with an antioxidant complex and mannan oligosaccharides.</COPY>
+	<LINK>Find GIANT DOG Formula</LINK>
+</Item>

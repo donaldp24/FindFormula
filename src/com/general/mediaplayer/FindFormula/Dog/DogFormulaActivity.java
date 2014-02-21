@@ -10,7 +10,7 @@ import com.general.mediaplayer.FindFormula.*;
 /**
  * Created by donald on 2/19/14.
  */
-public class DogFormulaActivity extends BaseActivity {
+public class DogFormulaActivity extends BaseFormulaActivity {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,30 +33,39 @@ public class DogFormulaActivity extends BaseActivity {
                 {
                     case CommonData.BREED_BEAGLE:
                         intent = new Intent(DogFormulaActivity.this, DogBeagleSpotsActivity.class);
+                        subId = CommonData.SUBID_BEAGLE;
                         break;
                     case CommonData.BREED_BULLDOG:
                         intent = new Intent(DogFormulaActivity.this, DogBulldogSpotsActivity.class);
+                        subId = CommonData.SUBID_BULLDOG;
                         break;
                     case CommonData.BREED_CHIHUAHUA:
                         intent = new Intent(DogFormulaActivity.this, DogChihuahuaSpotsActivity.class);
+                        subId = CommonData.SUBID_CHIHUAHUA;
                         break;
                     case CommonData.BREED_GERMAN:
                         intent = new Intent(DogFormulaActivity.this, DogGermanSpotsActivity.class);
+                        subId = CommonData.SUBID_GERMAN;
                         break;
                     case CommonData.BREED_LABRADOR:
                         intent = new Intent(DogFormulaActivity.this, DogLabradorSpotsActivity.class);
+                        subId = CommonData.SUBID_LABRADOR;
                         break;
                     case CommonData.BREED_SHIH:
                         intent = new Intent(DogFormulaActivity.this, DogShihSpotsActivity.class);
+                        subId = CommonData.SUBID_SHIH;
                         break;
                     case CommonData.BREED_WESTIE:
                         intent = new Intent(DogFormulaActivity.this, DogWestieSpotsActivity.class);
+                        subId = CommonData.SUBID_WESTIE;
                         break;
                     case CommonData.BREED_YORKIE:
                         intent = new Intent(DogFormulaActivity.this, DogYorkieSpotsActivity.class);
+                        subId = CommonData.SUBID_YORKIE;
                         break;
                     default:
                         intent = new Intent(DogFormulaActivity.this, DogBeagleSpotsActivity.class);
+                        subId = CommonData.SUBID_BEAGLE;
                         break;
                 }
 

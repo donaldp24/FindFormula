@@ -62,7 +62,7 @@ public class CatIndoorSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        catSpotsList = dataMgr.getSpotsFromName("indoor", CommonData.CATEGORY_CAT);
+        catSpotsList = dataMgr.getSpotsFromName("INDOOR", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.cat_indoor_spots_btn_spot1);

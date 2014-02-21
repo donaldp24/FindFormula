@@ -62,7 +62,7 @@ public class CatWetSpotsActivity extends BaseSpotsActivity {
         if (dataMgr.ReadXml(getApplicationContext(), CommonData.APP_CATEGORY) == false)
             Toast.makeText(this, "Read Config Failure", Toast.LENGTH_SHORT).show();
 
-        catSpotsList = dataMgr.getSpotsFromName("WET", CommonData.CATEGORY_CAT);
+        catSpotsList = dataMgr.getSpotsFromName("WET", CommonData.APP_CATEGORY);
 
         // spot buttons --------------------------------------------------------------------------
         Button btnSpot1 = (Button)findViewById(R.id.cat_wet_spots_btn_spot1);

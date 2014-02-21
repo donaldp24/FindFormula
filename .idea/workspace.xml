@@ -4,7 +4,6 @@
     <option name="state">
       <GlobalState>
         <option name="showEffects" value="false" />
-        <option name="visible" value="false" />
       </GlobalState>
     </option>
   </component>
@@ -377,72 +376,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CommonData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/CommonData.java">
+      <file leaf-file-name="DogBeagleSpotsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBeagleSpotsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1976">
+            <state line="112" column="0" selection-start="5054" selection-end="5054" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="1824">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScanMediaActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/ScanMediaActivity.java">
+      <file leaf-file-name="DogBulldogSpotsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBulldogSpotsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.0" vertical-offset="1002" max-vertical-offset="1558">
+            <state line="93" column="34" selection-start="4299" selection-end="4299" vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="2014">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="DogChihuahuaSpotsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogChihuahuaSpotsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="60" selection-start="13097" selection-end="13097" vertical-scroll-proportion="-8.56" vertical-offset="4821" max-vertical-offset="5339">
-              <folding>
-                <element signature="e#354#372#0" expanded="true" />
-                <element signature="e#531#549#0" expanded="true" />
-                <element signature="e#1084#1102#0" expanded="true" />
-                <element signature="e#1434#1452#0" expanded="true" />
-                <element signature="e#1745#1763#0" expanded="true" />
-                <element signature="e#2057#2075#0" expanded="true" />
-                <element signature="e#2366#2384#0" expanded="true" />
-                <element signature="e#2649#2667#0" expanded="true" />
-                <element signature="e#2960#2978#0" expanded="true" />
-                <element signature="e#3271#3289#0" expanded="true" />
-                <element signature="e#3577#3595#0" expanded="true" />
-                <element signature="e#3886#3904#0" expanded="true" />
-                <element signature="e#4195#4213#0" expanded="true" />
-                <element signature="e#4504#4522#0" expanded="true" />
-                <element signature="e#4814#4832#0" expanded="true" />
-                <element signature="e#5120#5138#0" expanded="true" />
-                <element signature="e#5432#5450#0" expanded="true" />
-                <element signature="e#5743#5761#0" expanded="true" />
-                <element signature="e#6054#6072#0" expanded="true" />
-                <element signature="e#6366#6384#0" expanded="true" />
-                <element signature="e#6674#6692#0" expanded="true" />
-                <element signature="e#6980#6998#0" expanded="true" />
-                <element signature="e#7289#7307#0" expanded="true" />
-                <element signature="e#7599#7617#0" expanded="true" />
-                <element signature="e#7911#7929#0" expanded="true" />
-                <element signature="e#8220#8238#0" expanded="true" />
-                <element signature="e#8531#8549#0" expanded="true" />
-                <element signature="e#8838#8856#0" expanded="true" />
-                <element signature="e#9147#9165#0" expanded="true" />
-                <element signature="e#9456#9474#0" expanded="true" />
-                <element signature="e#9761#9779#0" expanded="true" />
-                <element signature="e#10071#10089#0" expanded="true" />
-                <element signature="e#10380#10398#0" expanded="true" />
-                <element signature="e#10691#10709#0" expanded="true" />
-                <element signature="e#10998#11016#0" expanded="true" />
-                <element signature="e#11307#11325#0" expanded="true" />
-                <element signature="e#11616#11634#0" expanded="true" />
-                <element signature="e#11927#11945#0" expanded="true" />
-                <element signature="e#12234#12252#0" expanded="true" />
-                <element signature="e#12543#12561#0" expanded="true" />
-                <element signature="e#12851#12869#0" expanded="true" />
-                <element signature="e#13161#13179#0" expanded="true" />
-              </folding>
+            <state line="68" column="75" selection-start="3033" selection-end="3033" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2014">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -450,47 +406,16 @@
       <file leaf-file-name="DogGermanSpotsActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGermanSpotsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="5" selection-start="5793" selection-end="5793" vertical-scroll-proportion="0.7058824" vertical-offset="2070" max-vertical-offset="2622">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1122#1515#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1714#2111#0" expanded="true" />
-                <element signature="e#2100#2101#0" expanded="true" />
-                <element signature="e#2302#2702#0" expanded="true" />
-                <element signature="e#2691#2692#0" expanded="true" />
-                <element signature="e#3235#3758#0" expanded="true" />
-                <element signature="e#3747#3748#0" expanded="true" />
-                <element signature="e#3879#4402#0" expanded="true" />
-                <element signature="e#4391#4392#0" expanded="true" />
-                <element signature="e#4522#5045#0" expanded="true" />
-                <element signature="e#5034#5035#0" expanded="true" />
-                <element signature="e#5171#5694#0" expanded="true" />
-                <element signature="e#5683#5684#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="46" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.76" vertical-offset="0" max-vertical-offset="2584">
+            <state line="67" column="0" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.7053045" vertical-offset="515" max-vertical-offset="2185">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_dog.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main_dog.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="DogGiantSpotsActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGiantSpotsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="46" selection-start="145" selection-end="160" vertical-scroll-proportion="-0.76" vertical-offset="0" max-vertical-offset="2546">
+            <state line="112" column="0" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="1805">
               <folding />
             </state>
           </provider>
@@ -506,56 +431,56 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/cat_lifestylesel.xml" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpayedSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpecialSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatWetSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/main_dog.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_breedsel.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_bulldog_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_beagle_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_chihuahua_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_german_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_labrador_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_shih_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_westie_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_yorkie_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_formula.xml" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/ScanMediaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Application.java" />
+        <option value="$PROJECT_DIR$/src/android_serialport_api/SerialPort.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/BaseFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/CommonData.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatIndoorFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatKittenFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpayedFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpecialFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatWetFormulaActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogFormulaActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/dog_xsmall_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_mini_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_medium_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_maxi_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_giant_spots.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_xsmall_formula.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_mini_formula.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_medium_formula.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_maxi_formula.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_giant_formula.xml" />
-        <option value="$PROJECT_DIR$/res/layout/dog_lifestylesel.xml" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallFormulaActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniFormulaActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumFormulaActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiFormulaActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGiantFormulaActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBreedSelActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBeagleSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallFormulaActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dog_beagle_spots.xml" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBulldogSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dog_german_spots.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dog_giant_spots.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dog_maxi_spots.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dog_medium_spots.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dog_shih_spots.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogShihSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogWestieSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dog_westie_spots.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/dog_xsmall_spots.xml" />
+        <option value="$PROJECT_DIR$/res/layout/dog_yorkie_spots.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogYorkieSpotsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogChihuahuaSpotsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGiantSpotsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogLabradorSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogLifestyleSelActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogShihSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogWestieSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogYorkieSpotsActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/CommonData.java" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/ScanMediaActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatMaineCoonSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatKittenSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatIndoorSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatPersianSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatRagdollSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSiameseSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpayedSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpecialSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatWetSpotsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBeagleSpotsActivity.java" />
         <option value="$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGermanSpotsActivity.java" />
       </list>
     </option>
@@ -597,49 +522,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.general.mediaplayer.FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.example.FindFormula" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -766,11 +648,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -787,8 +665,18 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula_git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -802,8 +690,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="jni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.general.mediaplayer.FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.example.FindFormula" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -837,16 +768,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.general.mediaplayer.FindFormula" />
       <recent name="com.general.mediaplayer.FindFormula.Dog" />
       <recent name="com.general.mediaplayer.FindFormula.Cat" />
-      <recent name="com.general.mediaplayer.FindFormula" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Elance\works\13_petstore\FindFormula_git\src" />
+      <recent name="D:\Elance\works\13_petstore\FindFormula_git" />
       <recent name="D:\Elance\works\13_petstore\FindFormula_git\res\layout" />
       <recent name="D:\Elance\works\13_petstore\FindFormula_git\src\com\general\mediaplayer\FindFormula\Dog" />
       <recent name="D:\Elance\works\13_petstore\FindFormula\res\layout" />
-      <recent name="D:\Elance\works\13_petstore\FindFormula\res\values" />
-      <recent name="D:\Elance\works\13_petstore\FindFormula\res\drawable-hdpi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Elance\works\13_petstore\FindFormula\res\layout" />
@@ -1126,12 +1057,14 @@
       <workItem from="1392817598786" duration="10185000" />
       <workItem from="1392843763832" duration="25760000" />
       <workItem from="1392929285360" duration="7587000" />
-      <workItem from="1392937371244" duration="11273000" />
+      <workItem from="1392937371244" duration="14129000" />
+      <workItem from="1392962507983" duration="952000" />
+      <workItem from="1392987294577" duration="2967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72060000" />
+    <option name="totallyTimeSpent" value="78835000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1179,7 +1112,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33441034" sideWeight="0.49846154" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33279485" sideWeight="0.49846154" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32629108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1209,695 +1142,400 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpecialSpotsActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/CommonData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="62" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.0" vertical-offset="1216" max-vertical-offset="3078">
+        <state line="83" column="38" selection-start="2926" selection-end="2926" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2451">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/cat_wet_spots.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatIndoorFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatKittenFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="546" selection-end="546" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpayedFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpecialFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatWetFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="37" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="56" selection-start="3094" selection-end="3094" vertical-scroll-proportion="0.0" vertical-offset="878" max-vertical-offset="2394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGiantFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="40" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="38" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0" vertical-offset="99" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/cat_detailview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="383" selection-end="383" vertical-scroll-proportion="0.14209828" vertical-offset="64" max-vertical-offset="1330">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tooltip_back.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatDetailViewDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="51" selection-start="3420" selection-end="3420" vertical-scroll-proportion="0.88597643" vertical-offset="1528" max-vertical-offset="2641">
+        <state line="32" column="68" selection-start="1073" selection-end="1073" vertical-scroll-proportion="0.2657005" vertical-offset="160" max-vertical-offset="988">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_beagle_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="4" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.33333334" vertical-offset="1037" max-vertical-offset="2128">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_bulldog_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="4" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.59084606" vertical-offset="1417" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_chihuahua_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="4" selection-start="3162" selection-end="3162" vertical-scroll-proportion="-11.92" vertical-offset="1418" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_giant_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="4" selection-start="3131" selection-end="3131" vertical-scroll-proportion="0.6435124" vertical-offset="1523" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_maxi_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="4" selection-start="2123" selection-end="2123" vertical-scroll-proportion="0.3273196" vertical-offset="1038" max-vertical-offset="2470">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_medium_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="41" selection-start="2819" selection-end="2819" vertical-scroll-proportion="0.45740497" vertical-offset="1418" max-vertical-offset="2470">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_mini_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="4" selection-start="3122" selection-end="3122" vertical-scroll-proportion="0.7603093" vertical-offset="1424" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_shih_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="49" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.44429883" vertical-offset="1523" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_westie_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="55" selection-start="2670" selection-end="2670" vertical-scroll-proportion="0.20314547" vertical-offset="1536" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_xsmall_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="39" selection-start="3108" selection-end="3108" vertical-scroll-proportion="0.5517693" vertical-offset="1536" max-vertical-offset="2299">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_yorkie_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="34" selection-start="3422" selection-end="3422" vertical-scroll-proportion="0.6572165" vertical-offset="1694" max-vertical-offset="2470">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_german_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="24" selection-start="2146" selection-end="2146" vertical-scroll-proportion="0.32896462" vertical-offset="1060" max-vertical-offset="2470">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/dog_labrador_spots.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="24" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.35983828" vertical-offset="1044" max-vertical-offset="2470">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogLabradorSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="67" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.59532595" vertical-offset="409" max-vertical-offset="2185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="60" selection-start="5469" selection-end="5469" vertical-scroll-proportion="0.0" vertical-offset="1112" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="66" selection-start="5845" selection-end="5845" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2223">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="74" selection-start="4963" selection-end="4963" vertical-scroll-proportion="0.0" vertical-offset="1220" max-vertical-offset="2033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogShihSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="17" selection-start="5120" selection-end="5120" vertical-scroll-proportion="0.0" vertical-offset="1093" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogWestieSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="58" selection-start="4775" selection-end="4775" vertical-scroll-proportion="0.0" vertical-offset="865" max-vertical-offset="1995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallFormulaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="35" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="14" selection-start="5159" selection-end="5159" vertical-scroll-proportion="0.0" vertical-offset="808" max-vertical-offset="2033">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogYorkieSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="14" selection-start="5799" selection-end="5799" vertical-scroll-proportion="0.5412054" vertical-offset="1308" max-vertical-offset="2185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatMaineCoonSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="85" selection-start="2768" selection-end="2768" vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="2014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatKittenSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="81" selection-start="2746" selection-end="2746" vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="2223">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatPersianSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="82" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2223">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatRagdollSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="82" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSiameseSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="82" selection-start="2749" selection-end="2749" vertical-scroll-proportion="0.0" vertical-offset="456" max-vertical-offset="2014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpayedSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="90" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="2413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatSpecialSpotsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="88" selection-start="2762" selection-end="2762" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="2413">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatWetSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="11" selection-start="6647" selection-end="6647" vertical-scroll-proportion="0.0" vertical-offset="1621" max-vertical-offset="2413">
+        <state line="62" column="49" selection-start="2602" selection-end="2602" vertical-scroll-proportion="0.0701107" vertical-offset="798" max-vertical-offset="2413">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_bulldog_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatIndoorSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="40" selection-start="155" selection-end="155" vertical-scroll-proportion="0.08494784" vertical-offset="0" max-vertical-offset="2299">
+        <state line="64" column="81" selection-start="2746" selection-end="2746" vertical-scroll-proportion="1.6849056" vertical-offset="0" max-vertical-offset="2223">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_german_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Cat/CatFormulaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="40" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.70687234" vertical-offset="1757" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_labrador_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="47" selection-start="2179" selection-end="2179" vertical-scroll-proportion="0.11921459" vertical-offset="1226" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_shih_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="44" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.6002805" vertical-offset="1472" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_yorkie_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="14" selection-start="2590" selection-end="2590" vertical-scroll-proportion="0.49228612" vertical-offset="1264" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_breedsel.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="962" selection-end="962" vertical-scroll-proportion="-5.16" vertical-offset="350" max-vertical-offset="2052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_beagle_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="24" selection-start="753" selection-end="753" vertical-scroll-proportion="-5.34" vertical-offset="132" max-vertical-offset="2128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_chihuahua_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="14" selection-start="1817" selection-end="2051" vertical-scroll-proportion="0.61721855" vertical-offset="731" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="52" selection-start="167" selection-end="167" vertical-scroll-proportion="0.07549669" vertical-offset="0" max-vertical-offset="1235">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_xsmall_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="11" selection-start="2633" selection-end="2633" vertical-scroll-proportion="0.15040651" vertical-offset="1561" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_medium_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="40" selection-start="2219" selection-end="2219" vertical-scroll-proportion="0.38269988" vertical-offset="1038" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_maxi_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="44" selection-start="2992" selection-end="2992" vertical-scroll-proportion="0.3604488" vertical-offset="1643" max-vertical-offset="2470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_giant_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="49" selection-start="3107" selection-end="3107" vertical-scroll-proportion="0.5203366" vertical-offset="1586" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_westie_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="2871" selection-end="2871" vertical-scroll-proportion="0.46133682" vertical-offset="1472" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_mini_spots.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="4" selection-start="1807" selection-end="2036" vertical-scroll-proportion="0.30799475" vertical-offset="829" max-vertical-offset="2299">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_xsmall_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="161" selection-end="161" vertical-scroll-proportion="0.079943895" vertical-offset="0" max-vertical-offset="1197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_mini_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="37" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.8401122" vertical-offset="370" max-vertical-offset="1197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_medium_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="624" selection-end="624" vertical-scroll-proportion="0.17251052" vertical-offset="162" max-vertical-offset="1197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/cat_kitten_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="61" selection-start="1524" selection-end="1740" vertical-scroll-proportion="0.7758847" vertical-offset="434" max-vertical-offset="1197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_maxi_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="14" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.62692845" vertical-offset="484" max-vertical-offset="1197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_giant_formula.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.21318373" vertical-offset="0" max-vertical-offset="1197">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/dog_lifestylesel.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="0" selection-start="2022" selection-end="2022" vertical-scroll-proportion="-9.06" vertical-offset="763" max-vertical-offset="1539">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBreedSelActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="0" selection-start="6110" selection-end="6110" vertical-scroll-proportion="2.7005076" vertical-offset="0" max-vertical-offset="2299">
+        <state line="48" column="56" selection-start="1965" selection-end="1965" vertical-scroll-proportion="1.4339622" vertical-offset="0" max-vertical-offset="1824">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBeagleSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="52" selection-start="2986" selection-end="2986" vertical-scroll-proportion="-8.04" vertical-offset="890" max-vertical-offset="2109">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1515#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1714#2111#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2302#2702#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#3235#3758#0" expanded="true" />
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3879#4402#0" expanded="true" />
-            <element signature="e#4391#4392#0" expanded="true" />
-          </folding>
+        <state line="112" column="0" selection-start="5054" selection-end="5054" vertical-scroll-proportion="0.0" vertical-offset="1294" max-vertical-offset="1824">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogBulldogSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="3027" selection-end="3027" vertical-scroll-proportion="-8.8" vertical-offset="871" max-vertical-offset="2375">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1125#1519#0" expanded="true" />
-            <element signature="e#1508#1509#0" expanded="true" />
-            <element signature="e#1719#2117#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2309#2710#0" expanded="true" />
-            <element signature="e#2699#2700#0" expanded="true" />
-            <element signature="e#3245#3769#0" expanded="true" />
-            <element signature="e#3758#3759#0" expanded="true" />
-            <element signature="e#3891#4415#0" expanded="true" />
-            <element signature="e#4404#4405#0" expanded="true" />
-            <element signature="e#4536#5060#0" expanded="true" />
-            <element signature="e#5049#5050#0" expanded="true" />
-          </folding>
+        <state line="93" column="34" selection-start="4299" selection-end="4299" vertical-scroll-proportion="0.0" vertical-offset="1351" max-vertical-offset="2014">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogChihuahuaSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="93" selection-start="2509" selection-end="2509" vertical-scroll-proportion="10.58" vertical-offset="1612" max-vertical-offset="2375">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1131#1527#0" expanded="true" />
-            <element signature="e#1516#1517#0" expanded="true" />
-            <element signature="e#1729#2129#0" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-            <element signature="e#2323#2726#0" expanded="true" />
-            <element signature="e#2715#2716#0" expanded="true" />
-            <element signature="e#3265#3791#0" expanded="true" />
-            <element signature="e#3780#3781#0" expanded="true" />
-            <element signature="e#3915#4441#0" expanded="true" />
-            <element signature="e#4430#4431#0" expanded="true" />
-            <element signature="e#4564#5090#0" expanded="true" />
-            <element signature="e#5079#5080#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogFormulaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="47" selection-start="1083" selection-end="1083" vertical-scroll-proportion="20.92" vertical-offset="1131" max-vertical-offset="2318">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGiantFormulaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="84" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="68" column="75" selection-start="3033" selection-end="3033" vertical-scroll-proportion="0.0" vertical-offset="1425" max-vertical-offset="2014">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGiantSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="59" selection-start="1727" selection-end="1727" vertical-scroll-proportion="20.14" vertical-offset="1824" max-vertical-offset="2622">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#985#1377#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1575#1971#0" expanded="true" />
-            <element signature="e#1960#1961#0" expanded="true" />
-            <element signature="e#2161#2565#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#3096#3618#0" expanded="true" />
-            <element signature="e#3607#3608#0" expanded="true" />
-            <element signature="e#3738#4260#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
-            <element signature="e#4379#4901#0" expanded="true" />
-            <element signature="e#4890#4891#0" expanded="true" />
-            <element signature="e#5026#5548#0" expanded="true" />
-            <element signature="e#5537#5538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogLabradorSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="78" selection-start="3555" selection-end="3574" vertical-scroll-proportion="7.96" vertical-offset="1880" max-vertical-offset="2622">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1128#1523#0" expanded="true" />
-            <element signature="e#1512#1513#0" expanded="true" />
-            <element signature="e#1724#2123#0" expanded="true" />
-            <element signature="e#2112#2113#0" expanded="true" />
-            <element signature="e#2316#2718#0" expanded="true" />
-            <element signature="e#2707#2708#0" expanded="true" />
-            <element signature="e#3255#3780#0" expanded="true" />
-            <element signature="e#3769#3770#0" expanded="true" />
-            <element signature="e#3903#4428#0" expanded="true" />
-            <element signature="e#4417#4418#0" expanded="true" />
-            <element signature="e#4550#5075#0" expanded="true" />
-            <element signature="e#5064#5065#0" expanded="true" />
-            <element signature="e#5203#5728#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogLifestyleSelActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="11" selection-start="4154" selection-end="4154" vertical-scroll-proportion="-23.08" vertical-offset="905" max-vertical-offset="1672">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiFormulaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="65" selection-start="1023" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMaxiSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="79" selection-start="2867" selection-end="2867" vertical-scroll-proportion="17.88" vertical-offset="2148" max-vertical-offset="2869">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#1373#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1570#1965#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2154#2556#0" expanded="true" />
-            <element signature="e#2545#2546#0" expanded="true" />
-            <element signature="e#3085#3606#0" expanded="true" />
-            <element signature="e#3595#3596#0" expanded="true" />
-            <element signature="e#3725#4246#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4364#4885#0" expanded="true" />
-            <element signature="e#4874#4875#0" expanded="true" />
-            <element signature="e#5003#5524#0" expanded="true" />
-            <element signature="e#5513#5514#0" expanded="true" />
-            <element signature="e#5648#6169#0" expanded="true" />
-            <element signature="e#6158#6159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumFormulaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMediumSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="81" selection-start="2887" selection-end="2887" vertical-scroll-proportion="17.62" vertical-offset="2135" max-vertical-offset="2869">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#988#1381#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1580#1977#0" expanded="true" />
-            <element signature="e#1966#1967#0" expanded="true" />
-            <element signature="e#2168#2574#0" expanded="true" />
-            <element signature="e#2563#2564#0" expanded="true" />
-            <element signature="e#3107#3630#0" expanded="true" />
-            <element signature="e#3619#3620#0" expanded="true" />
-            <element signature="e#3751#4274#0" expanded="true" />
-            <element signature="e#4263#4264#0" expanded="true" />
-            <element signature="e#4394#4917#0" expanded="true" />
-            <element signature="e#4906#4907#0" expanded="true" />
-            <element signature="e#5037#5560#0" expanded="true" />
-            <element signature="e#5549#5550#0" expanded="true" />
-            <element signature="e#5686#6209#0" expanded="true" />
-            <element signature="e#6198#6199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniFormulaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="80" selection-start="1060" selection-end="1060" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="760">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogMiniSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="79" selection-start="2867" selection-end="2867" vertical-scroll-proportion="12.94" vertical-offset="1901" max-vertical-offset="2622">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#1373#0" expanded="true" />
-            <element signature="e#1362#1363#0" expanded="true" />
-            <element signature="e#1570#1965#0" expanded="true" />
-            <element signature="e#1954#1955#0" expanded="true" />
-            <element signature="e#2154#2556#0" expanded="true" />
-            <element signature="e#2545#2546#0" expanded="true" />
-            <element signature="e#3085#3606#0" expanded="true" />
-            <element signature="e#3595#3596#0" expanded="true" />
-            <element signature="e#3725#4246#0" expanded="true" />
-            <element signature="e#4235#4236#0" expanded="true" />
-            <element signature="e#4364#4885#0" expanded="true" />
-            <element signature="e#4874#4875#0" expanded="true" />
-            <element signature="e#5009#5530#0" expanded="true" />
-            <element signature="e#5519#5520#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogShihSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="79" selection-start="2997" selection-end="2997" vertical-scroll-proportion="5.08" vertical-offset="1546" max-vertical-offset="2375">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1116#1507#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1704#2099#0" expanded="true" />
-            <element signature="e#2088#2089#0" expanded="true" />
-            <element signature="e#2288#2686#0" expanded="true" />
-            <element signature="e#2675#2676#0" expanded="true" />
-            <element signature="e#3215#3736#0" expanded="true" />
-            <element signature="e#3725#3726#0" expanded="true" />
-            <element signature="e#3855#4376#0" expanded="true" />
-            <element signature="e#4365#4366#0" expanded="true" />
-            <element signature="e#4494#5015#0" expanded="true" />
-            <element signature="e#5004#5005#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogWestieSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="81" selection-start="3015" selection-end="3015" vertical-scroll-proportion="13.48" vertical-offset="1629" max-vertical-offset="2375">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1515#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1714#2111#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2302#2702#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#3235#3758#0" expanded="true" />
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3879#4402#0" expanded="true" />
-            <element signature="e#4391#4392#0" expanded="true" />
-            <element signature="e#4522#5045#0" expanded="true" />
-            <element signature="e#5034#5035#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallFormulaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="74" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0" vertical-offset="8" max-vertical-offset="779">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogXsmallSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="78" selection-start="3547" selection-end="3566" vertical-scroll-proportion="9.14" vertical-offset="1939" max-vertical-offset="2660">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1128#1521#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1720#2117#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2308#2714#0" expanded="true" />
-            <element signature="e#2703#2704#0" expanded="true" />
-            <element signature="e#3247#3770#0" expanded="true" />
-            <element signature="e#3759#3760#0" expanded="true" />
-            <element signature="e#3891#4414#0" expanded="true" />
-            <element signature="e#4403#4404#0" expanded="true" />
-            <element signature="e#4534#5057#0" expanded="true" />
-            <element signature="e#5046#5047#0" expanded="true" />
-            <element signature="e#5183#5706#0" expanded="true" />
-            <element signature="e#5695#5696#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogYorkieSpotsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="81" selection-start="3015" selection-end="3015" vertical-scroll-proportion="-0.6972477" vertical-offset="1824" max-vertical-offset="2622">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1515#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1714#2111#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2302#2702#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#3235#3758#0" expanded="true" />
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3879#4402#0" expanded="true" />
-            <element signature="e#4391#4392#0" expanded="true" />
-            <element signature="e#4522#5045#0" expanded="true" />
-            <element signature="e#5034#5035#0" expanded="true" />
-            <element signature="e#5171#5694#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/CommonData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="1976">
+        <state line="112" column="0" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.0" vertical-offset="1296" max-vertical-offset="1805">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main_dog.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="46" selection-start="145" selection-end="160" vertical-scroll-proportion="-0.76" vertical-offset="0" max-vertical-offset="2546">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="46" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.76" vertical-offset="0" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/ScanMediaActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="3251" selection-end="3251" vertical-scroll-proportion="0.0" vertical-offset="1002" max-vertical-offset="1558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="60" selection-start="13097" selection-end="13097" vertical-scroll-proportion="-8.56" vertical-offset="4821" max-vertical-offset="5339">
-          <folding>
-            <element signature="e#354#372#0" expanded="true" />
-            <element signature="e#531#549#0" expanded="true" />
-            <element signature="e#1084#1102#0" expanded="true" />
-            <element signature="e#1434#1452#0" expanded="true" />
-            <element signature="e#1745#1763#0" expanded="true" />
-            <element signature="e#2057#2075#0" expanded="true" />
-            <element signature="e#2366#2384#0" expanded="true" />
-            <element signature="e#2649#2667#0" expanded="true" />
-            <element signature="e#2960#2978#0" expanded="true" />
-            <element signature="e#3271#3289#0" expanded="true" />
-            <element signature="e#3577#3595#0" expanded="true" />
-            <element signature="e#3886#3904#0" expanded="true" />
-            <element signature="e#4195#4213#0" expanded="true" />
-            <element signature="e#4504#4522#0" expanded="true" />
-            <element signature="e#4814#4832#0" expanded="true" />
-            <element signature="e#5120#5138#0" expanded="true" />
-            <element signature="e#5432#5450#0" expanded="true" />
-            <element signature="e#5743#5761#0" expanded="true" />
-            <element signature="e#6054#6072#0" expanded="true" />
-            <element signature="e#6366#6384#0" expanded="true" />
-            <element signature="e#6674#6692#0" expanded="true" />
-            <element signature="e#6980#6998#0" expanded="true" />
-            <element signature="e#7289#7307#0" expanded="true" />
-            <element signature="e#7599#7617#0" expanded="true" />
-            <element signature="e#7911#7929#0" expanded="true" />
-            <element signature="e#8220#8238#0" expanded="true" />
-            <element signature="e#8531#8549#0" expanded="true" />
-            <element signature="e#8838#8856#0" expanded="true" />
-            <element signature="e#9147#9165#0" expanded="true" />
-            <element signature="e#9456#9474#0" expanded="true" />
-            <element signature="e#9761#9779#0" expanded="true" />
-            <element signature="e#10071#10089#0" expanded="true" />
-            <element signature="e#10380#10398#0" expanded="true" />
-            <element signature="e#10691#10709#0" expanded="true" />
-            <element signature="e#10998#11016#0" expanded="true" />
-            <element signature="e#11307#11325#0" expanded="true" />
-            <element signature="e#11616#11634#0" expanded="true" />
-            <element signature="e#11927#11945#0" expanded="true" />
-            <element signature="e#12234#12252#0" expanded="true" />
-            <element signature="e#12543#12561#0" expanded="true" />
-            <element signature="e#12851#12869#0" expanded="true" />
-            <element signature="e#13161#13179#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/general/mediaplayer/FindFormula/Dog/DogGermanSpotsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="5" selection-start="5793" selection-end="5793" vertical-scroll-proportion="0.7058824" vertical-offset="2070" max-vertical-offset="2622">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1122#1515#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1714#2111#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2302#2702#0" expanded="true" />
-            <element signature="e#2691#2692#0" expanded="true" />
-            <element signature="e#3235#3758#0" expanded="true" />
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3879#4402#0" expanded="true" />
-            <element signature="e#4391#4392#0" expanded="true" />
-            <element signature="e#4522#5045#0" expanded="true" />
-            <element signature="e#5034#5035#0" expanded="true" />
-            <element signature="e#5171#5694#0" expanded="true" />
-            <element signature="e#5683#5684#0" expanded="true" />
-          </folding>
+        <state line="67" column="0" selection-start="2933" selection-end="2933" vertical-scroll-proportion="0.7053045" vertical-offset="515" max-vertical-offset="2185">
+          <folding />
         </state>
       </provider>
     </entry>

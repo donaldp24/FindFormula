@@ -31,7 +31,7 @@ public class CommonData {
 
     public static final int VIDEO_LOOPING = 1;
     public static final int START_SERVER = 1;
-    public static final int USE_SERIAL = 1;
+    public static final int USE_SERIAL = 0;
 
 
     //enum for transform
@@ -76,6 +76,31 @@ public class CommonData {
     public static final int LIFESTYLE_GIANT = 4;
 
     public static final int SELECTED_LIFESTYLE = LIFESTYLE_KITTEN;
+
+    // led sub id -------------------------------------------------------
+    public static final int SUBID_MAINECOON = 0;
+    public static final int SUBID_PERSIAN = 1;
+    public static final int SUBID_RAGDOLL = 2;
+    public static final int SUBID_SIAMESE = 3;
+    public static final int SUBID_KITTEN = 4;
+    public static final int SUBID_INDOOR = 5;
+    public static final int SUBID_SPAYED = 6;
+    public static final int SUBID_SPECIAL = 7;
+    public static final int SUBID_WET = 8;
+
+    public static final int SUBID_BEAGLE = 0;
+    public static final int SUBID_BULLDOG = 1;
+    public static final int SUBID_CHIHUAHUA = 2;
+    public static final int SUBID_GERMAN = 3;
+    public static final int SUBID_LABRADOR = 4;
+    public static final int SUBID_SHIH = 5;
+    public static final int SUBID_WESTIE = 6;
+    public static final int SUBID_YORKIE = 7;
+    public static final int SUBID_XSMALL = 8;
+    public static final int SUBID_MINI = 9;
+    public static final int SUBID_MEDIUM = 10;
+    public static final int SUBID_MAXI = 11;
+    public static final int SUBID_GIANT = 12;
 
     public static DataManager GetDataMgr(){
         if (dataMgr == null)
