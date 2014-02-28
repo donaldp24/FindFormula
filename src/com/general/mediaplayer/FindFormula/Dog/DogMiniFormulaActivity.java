@@ -15,8 +15,6 @@ public class DogMiniFormulaActivity extends BaseFormulaActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dog_mini_formula);
 
-        subId = CommonData.SUBID_MINI;
-
         // Button Back
         Button btnBack = (Button)findViewById(R.id.dog_mini_formula_btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {
@@ -158,6 +156,31 @@ public class DogMiniFormulaActivity extends BaseFormulaActivity {
                 else
                     overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
                 finish();
+            }
+        });
+
+        // lights
+        Button btnPuppy = (Button)findViewById(R.id.btn_puppy);
+        btnPuppy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // turn LED on
+                if (CommonData.USE_SERIAL == 1)
+                {
+                    SendSubN(CommonData.SUBID_MINI_PUPPY);
+                }
+            }
+        });
+
+        Button btnAdult = (Button)findViewById(R.id.btn_adult);
+        btnAdult.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // turn LED on
+                if (CommonData.USE_SERIAL == 1)
+                {
+                    SendSubN(CommonData.SUBID_MINI_ADULT);
+                }
             }
         });
 

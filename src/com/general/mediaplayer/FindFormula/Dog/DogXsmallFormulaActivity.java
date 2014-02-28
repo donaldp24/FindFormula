@@ -16,8 +16,6 @@ public class DogXsmallFormulaActivity extends BaseFormulaActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dog_xsmall_formula);
 
-        subId = CommonData.SUBID_XSMALL;
-
         // Button Back
         Button btnBack = (Button)findViewById(R.id.dog_xsmall_formula_btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {
@@ -158,6 +156,31 @@ public class DogXsmallFormulaActivity extends BaseFormulaActivity {
                 else
                     overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
                 finish();
+            }
+        });
+
+        // lights
+        Button btnMature = (Button)findViewById(R.id.btn_mature);
+        btnMature.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // turn LED on
+                if (CommonData.USE_SERIAL == 1)
+                {
+                    SendSubN(CommonData.SUBID_XSMALL_MATURE);
+                }
+            }
+        });
+
+        Button btnAging = (Button)findViewById(R.id.btn_aging);
+        btnAging.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // turn LED on
+                if (CommonData.USE_SERIAL == 1)
+                {
+                    SendSubN(CommonData.SUBID_XSMALL_AGING);
+                }
             }
         });
 

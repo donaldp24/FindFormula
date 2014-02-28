@@ -15,8 +15,6 @@ public class DogMediumFormulaActivity extends BaseFormulaActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dog_medium_formula);
 
-        subId = CommonData.SUBID_MEDIUM;
-
         // Button Back
         Button btnBack = (Button)findViewById(R.id.dog_medium_formula_btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {
@@ -157,6 +155,31 @@ public class DogMediumFormulaActivity extends BaseFormulaActivity {
                 else
                     overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
                 finish();
+            }
+        });
+
+        // lights
+        Button btnDigestion = (Button)findViewById(R.id.btn_digestion);
+        btnDigestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // turn LED on
+                if (CommonData.USE_SERIAL == 1)
+                {
+                    SendSubN(CommonData.SUBID_MEDIUM_DIGESTION);
+                }
+            }
+        });
+
+        Button btnWeight = (Button)findViewById(R.id.btn_weight);
+        btnWeight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // turn LED on
+                if (CommonData.USE_SERIAL == 1)
+                {
+                    SendSubN(CommonData.SUBID_MEDIUM_WEIGHT);
+                }
             }
         });
 

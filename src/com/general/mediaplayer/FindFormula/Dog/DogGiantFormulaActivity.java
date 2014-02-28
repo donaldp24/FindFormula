@@ -163,4 +163,16 @@ public class DogGiantFormulaActivity extends BaseFormulaActivity {
 
         ResolutionSet._instance.iterateChild(findViewById(R.id.layout_dog_giant_formula));
     }
+
+    @Override
+    public void onStart()
+    {
+        super.onStart();
+
+        // light
+        if (CommonData.USE_SERIAL == 1)
+        {
+            SendSubN(subId);
+        }
+    }
 }

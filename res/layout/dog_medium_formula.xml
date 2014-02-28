@@ -94,5 +94,21 @@
 			android:layout_height="513px"
 			android:background="@drawable/dog_medium_formula"
 			/>
+	<Button
+			android:id="@+id/btn_digestion"
+			android:layout_marginLeft="301px"
+			android:layout_marginTop="136px"
+			android:layout_width="330px"
+			android:layout_height="513px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/btn_weight"
+			android:layout_marginLeft="640px"
+			android:layout_marginTop="136px"
+			android:layout_width="330px"
+			android:layout_height="513px"
+			android:background="@android:color/transparent"
+			/>
 
 </RelativeLayout>

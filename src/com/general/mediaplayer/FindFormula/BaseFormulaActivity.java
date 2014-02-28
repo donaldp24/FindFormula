@@ -92,10 +92,10 @@ public class BaseFormulaActivity extends BaseActivity {
         super.onStart();
 
         // turn LED on
-        if (CommonData.USE_SERIAL == 1)
-        {
-            SendSubN(subId);
-        }
+        //if (CommonData.USE_SERIAL == 1)
+        //{
+        //    SendSubN(subId);
+        //}
 
     }
 
