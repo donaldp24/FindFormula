@@ -93,20 +93,24 @@ public class CommonData {
     public static final int SUBID_SPECIAL = 7;
     public static final int SUBID_WET = 8;
 
-    // dog
-    public static final int SUBID_BEAGLE = 0;
-    public static final int SUBID_BULLDOG = 1;
-    public static final int SUBID_CHIHUAHUA = 2;
-    public static final int SUBID_GERMAN = 3;
-    public static final int SUBID_LABRADOR = 4;
-    public static final int SUBID_SHIH = 5;
-    public static final int SUBID_WESTIE = 6;
-    public static final int SUBID_YORKIE = 7;
-    public static final int SUBID_XSMALL = 8;
-    public static final int SUBID_MINI = 9;
-    public static final int SUBID_MEDIUM = 10;
-    public static final int SUBID_MAXI = 11;
-    public static final int SUBID_GIANT = 12;
+    // dog(breed)
+    public static final int SUBID_BEAGLE = 15;
+    public static final int SUBID_BULLDOG = 11;
+    public static final int SUBID_CHIHUAHUA = 9;
+    public static final int SUBID_GERMAN = 12;
+    public static final int SUBID_LABRADOR = 16;
+    public static final int SUBID_SHIH = 13;
+    public static final int SUBID_WESTIE = 14;
+    public static final int SUBID_YORKIE = 10;
+    //dog(lifestyle)
+    public static final int SUBID_XSMALL_MATURE = 1;
+    public static final int SUBID_XSMALL_AGING = 5;
+    public static final int SUBID_MINI_PUPPY = 2;
+    public static final int SUBID_MINI_ADULT = 6;
+    public static final int SUBID_MEDIUM_DIGESTION = 7;
+    public static final int SUBID_MEDIUM_WEIGHT = 3;
+    public static final int SUBID_MAXI = 8;
+    public static final int SUBID_GIANT = 4;
 
     public static DataManager GetDataMgr(){
         if (dataMgr == null)
