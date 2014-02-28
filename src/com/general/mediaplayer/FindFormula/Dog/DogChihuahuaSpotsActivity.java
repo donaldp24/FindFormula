@@ -55,6 +55,9 @@ public class DogChihuahuaSpotsActivity extends BaseSpotsActivity {
         btnFindFormula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                _appPrefs.setSelectedFood(CommonData.BREED_CHIHUAHUA);
+
                 Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogFormulaActivity.class);
                 startActivity(intent);
                 overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
@@ -121,6 +124,170 @@ public class DogChihuahuaSpotsActivity extends BaseSpotsActivity {
                     dialog.show();
                     dialog.ShowInfo(info.headline, info.copy, info.link);
                 }
+            }
+        });
+
+        ///////////////////////////////////////////////////////////////////////////
+
+        final int selectedBreed = _appPrefs.getSelectedBreed();
+
+        Button btnBeagle = (Button)findViewById(R.id.dog_btn_beagle);
+        btnBeagle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_BEAGLE)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_BEAGLE);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogBeagleSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_BEAGLE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button BtnBulldog = (Button)findViewById(R.id.dog_btn_bulldog);
+        BtnBulldog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_BULLDOG)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_BULLDOG);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogBulldogSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_BULLDOG)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnChihuahua = (Button)findViewById(R.id.dog_btn_chihuahua);
+        btnChihuahua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_CHIHUAHUA)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_CHIHUAHUA);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogChihuahuaSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_CHIHUAHUA)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnGerman = (Button)findViewById(R.id.dog_btn_german);
+        btnGerman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_GERMAN)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_GERMAN);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogGermanSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_GERMAN)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnLabrador = (Button)findViewById(R.id.dog_btn_labrador);
+        btnLabrador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_LABRADOR)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_LABRADOR);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogLabradorSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_LABRADOR)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnShih = (Button)findViewById(R.id.dog_btn_shih);
+        btnShih.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_SHIH)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_SHIH);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogShihSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_SHIH)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnWestie = (Button)findViewById(R.id.dog_btn_westie);
+        btnWestie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_WESTIE)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_WESTIE);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogWestieSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_WESTIE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnYorkie = (Button)findViewById(R.id.dog_btn_yorkie);
+        btnYorkie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedBreed == CommonData.BREED_YORKIE)
+                    return;
+
+                _appPrefs.setSelectedBreed(CommonData.BREED_YORKIE);
+
+                Intent intent = new Intent(DogChihuahuaSpotsActivity.this, DogYorkieSpotsActivity.class);
+                startActivity(intent);
+                if (selectedBreed < CommonData.BREED_YORKIE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
             }
         });
 

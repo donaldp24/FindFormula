@@ -62,6 +62,38 @@
 			android:layout_height="58px"
 			android:background="@drawable/cat_mainecoon_sel"
 			/>
+	<Button
+			android:id="@+id/cat_btn_mainecoon"
+			android:layout_marginLeft="170px"
+			android:layout_marginTop="700px"
+			android:layout_width="260px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_persian"
+			android:layout_marginLeft="430px"
+			android:layout_marginTop="700px"
+			android:layout_width="260px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_ragdoll"
+			android:layout_marginLeft="690px"
+			android:layout_marginTop="700px"
+			android:layout_width="260px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_siamese"
+			android:layout_marginLeft="950px"
+			android:layout_marginTop="700px"
+			android:layout_width="260px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
 	<!-- ////////////////// end constants //////////////////////// -->
 
 

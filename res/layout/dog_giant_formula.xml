@@ -44,6 +44,46 @@
 			android:layout_height="45px"
 			android:background="@drawable/dog_giant_sel"
 			/>
+	<Button
+			android:id="@+id/dog_btn_xsmall"
+			android:layout_marginLeft="50px"
+			android:layout_marginTop="670px"
+			android:layout_width="240px"
+			android:layout_height="90px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_mini"
+			android:layout_marginLeft="300px"
+			android:layout_marginTop="670px"
+			android:layout_width="240px"
+			android:layout_height="90px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_medium"
+			android:layout_marginLeft="560px"
+			android:layout_marginTop="670px"
+			android:layout_width="240px"
+			android:layout_height="90px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_maxi"
+			android:layout_marginLeft="810px"
+			android:layout_marginTop="670px"
+			android:layout_width="240px"
+			android:layout_height="90px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_giant"
+			android:layout_marginLeft="1050px"
+			android:layout_marginTop="670px"
+			android:layout_width="230px"
+			android:layout_height="90px"
+			android:background="@android:color/transparent"
+			/>
 	<!-- ////////////////// end constants //////////////////////// -->
 
 	<!-- good -->

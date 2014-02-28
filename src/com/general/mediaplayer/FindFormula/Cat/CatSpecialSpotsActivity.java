@@ -51,6 +51,10 @@ public class CatSpecialSpotsActivity extends BaseSpotsActivity {
         btnFindFormula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                _appPrefs.setSelectedFood(CommonData.LIFESTYLE_SPECIAL);
+
+
                 Intent intent = new Intent(CatSpecialSpotsActivity.this, CatSpecialFormulaActivity.class);
                 startActivity(intent);
                 overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
@@ -146,6 +150,113 @@ public class CatSpecialSpotsActivity extends BaseSpotsActivity {
             }
         });
 
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        final int selectedLifestyle = _appPrefs.getSelectedLifestyle();
+
+        Button btnKitten = (Button)findViewById(R.id.cat_btn_kitten);
+        btnKitten.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_KITTEN)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_KITTEN);
+
+
+                Intent intent = new Intent(CatSpecialSpotsActivity.this, CatKittenSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_KITTEN)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnIndoor = (Button)findViewById(R.id.cat_btn_indoor);
+        btnIndoor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_INDOOR)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_INDOOR);
+
+                Intent intent = new Intent(CatSpecialSpotsActivity.this, CatIndoorSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_INDOOR)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnSpayed = (Button)findViewById(R.id.cat_btn_spayed);
+        btnSpayed.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_SPAYED)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_SPAYED);
+
+
+                Intent intent = new Intent(CatSpecialSpotsActivity.this, CatSpayedSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_SPAYED)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnSpecial = (Button)findViewById(R.id.cat_btn_special);
+        btnSpecial.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_SPECIAL)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_SPECIAL);
+
+
+                Intent intent = new Intent(CatSpecialSpotsActivity.this, CatSpecialSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_SPECIAL)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnWet = (Button)findViewById(R.id.cat_btn_wet);
+        btnWet.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_WET)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_WET);
+
+
+                Intent intent = new Intent(CatSpecialSpotsActivity.this, CatWetSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_WET)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
 
         ResolutionSet._instance.iterateChild(findViewById(R.id.layout_cat_special_spots));
     }

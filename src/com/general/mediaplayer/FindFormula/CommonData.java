@@ -135,4 +135,8 @@ public class CommonData {
     {
         return LIFESTYLE_KITTEN;
     }
+
+    public static int getDefaultFood() {
+        return BREED_MAINECOON;
+    }
 }

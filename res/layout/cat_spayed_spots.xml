@@ -62,6 +62,46 @@
 			android:layout_height="77px"
 			android:background="@drawable/cat_spayed_sel"
 			/>
+	<Button
+			android:id="@+id/cat_btn_kitten"
+			android:layout_marginLeft="50px"
+			android:layout_marginTop="700px"
+			android:layout_width="240px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_indoor"
+			android:layout_marginLeft="310px"
+			android:layout_marginTop="700px"
+			android:layout_width="260px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_spayed"
+			android:layout_marginLeft="570px"
+			android:layout_marginTop="700px"
+			android:layout_width="240px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_special"
+			android:layout_marginLeft="830px"
+			android:layout_marginTop="700px"
+			android:layout_width="240px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/cat_btn_wet"
+			android:layout_marginLeft="1070px"
+			android:layout_marginTop="700px"
+			android:layout_width="230px"
+			android:layout_height="58px"
+			android:background="@android:color/transparent"
+			/>
 	<!-- ////////////////// end constants //////////////////////// -->
 
 

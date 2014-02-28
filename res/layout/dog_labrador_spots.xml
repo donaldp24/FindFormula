@@ -62,6 +62,70 @@
 			android:layout_height="63px"
 			android:background="@drawable/dog_labrador_sel"
 			/>
+	<Button
+			android:id="@+id/dog_btn_beagle"
+			android:layout_marginLeft="34px"
+			android:layout_marginTop="667px"
+			android:layout_width="150px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_bulldog"
+			android:layout_marginLeft="184px"
+			android:layout_marginTop="667px"
+			android:layout_width="130px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_chihuahua"
+			android:layout_marginLeft="320px"
+			android:layout_marginTop="667px"
+			android:layout_width="150px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_german"
+			android:layout_marginLeft="494px"
+			android:layout_marginTop="667px"
+			android:layout_width="150px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_labrador"
+			android:layout_marginLeft="650px"
+			android:layout_marginTop="667px"
+			android:layout_width="150px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_shih"
+			android:layout_marginLeft="800px"
+			android:layout_marginTop="667px"
+			android:layout_width="110px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_westie"
+			android:layout_marginLeft="910px"
+			android:layout_marginTop="667px"
+			android:layout_width="160px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
+	<Button
+			android:id="@+id/dog_btn_yorkie"
+			android:layout_marginLeft="1075px"
+			android:layout_marginTop="667px"
+			android:layout_width="160px"
+			android:layout_height="93px"
+			android:background="@android:color/transparent"
+			/>
 	<!-- ////////////////// end constants //////////////////////// -->
 
 

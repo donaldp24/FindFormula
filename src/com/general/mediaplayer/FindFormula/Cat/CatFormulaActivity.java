@@ -13,13 +13,18 @@ import com.general.mediaplayer.FindFormula.*;
  */
 public class CatFormulaActivity extends BaseFormulaActivity {
 
+    private Button btnBack = null;
+    private ImageView imgSel = null;
+    private ImageView imgFormula = null;
+
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.cat_formula);
 
 
         // Button Back
-        Button btnBack = (Button)findViewById(R.id.cat_formula_btn_back);
+        btnBack = (Button)findViewById(R.id.cat_formula_btn_back);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -60,10 +65,10 @@ public class CatFormulaActivity extends BaseFormulaActivity {
             }
         });
 
-        int selectedBreed = _appPrefs.getSelectedBreed();
+       final int selectedFood = _appPrefs.getSelectedFood();
         int nResSel = R.drawable.cat_mainecoon_sel;
         int nResFormula = R.drawable.cat_mainecoon_formula;
-        switch (selectedBreed)
+        switch (selectedFood)
         {
             case CommonData.BREED_MAINECOON:
                 nResSel = R.drawable.cat_mainecoon_sel;
@@ -87,13 +92,92 @@ public class CatFormulaActivity extends BaseFormulaActivity {
                 break;
         }
 
-        ImageView imgSel = (ImageView)findViewById(R.id.cat_formula_img_sel);
+        imgSel = (ImageView)findViewById(R.id.cat_formula_img_sel);
         imgSel.setBackgroundResource(nResSel);
 
-        ImageView imgFormula = (ImageView)findViewById(R.id.cat_formula_img_formula);
+        imgFormula = (ImageView)findViewById(R.id.cat_formula_img_formula);
         imgFormula.setBackgroundResource(nResFormula);
 
+        Button btnMainecoon = (Button)findViewById(R.id.cat_btn_mainecoon);
+        btnMainecoon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
+                if (selectedFood == CommonData.BREED_MAINECOON)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_MAINECOON);
+
+                Intent intent = new Intent(CatFormulaActivity.this, CatFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_MAINECOON)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnPersian = (Button)findViewById(R.id.cat_btn_persian);
+        btnPersian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_PERSIAN)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_PERSIAN);
+
+
+                Intent intent = new Intent(CatFormulaActivity.this, CatFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_PERSIAN)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnRagdoll = (Button)findViewById(R.id.cat_btn_ragdoll);
+        btnRagdoll.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_RAGDOLL)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_RAGDOLL);
+
+                Intent intent = new Intent(CatFormulaActivity.this, CatFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_RAGDOLL)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnSiamese = (Button)findViewById(R.id.cat_btn_siamese);
+        btnSiamese.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_SIAMESE)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_SIAMESE);
+
+                Intent intent = new Intent(CatFormulaActivity.this, CatFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_SIAMESE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
 
         ResolutionSet._instance.iterateChild(findViewById(R.id.layout_cat_formula));
     }

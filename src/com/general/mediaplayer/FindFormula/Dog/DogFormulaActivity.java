@@ -75,10 +75,10 @@ public class DogFormulaActivity extends BaseFormulaActivity {
             }
         });
 
-        int selectedBreed = _appPrefs.getSelectedBreed();
+        final int selectedFood = _appPrefs.getSelectedFood();
         int nResSel = R.drawable.dog_beagle_sel;
         int nResFormula = R.drawable.dog_beagle_formula;
-        switch (selectedBreed)
+        switch (selectedFood)
         {
             case CommonData.BREED_BEAGLE:
                 nResSel = R.drawable.dog_beagle_sel;
@@ -123,6 +123,166 @@ public class DogFormulaActivity extends BaseFormulaActivity {
 
         ImageView imgFormula = (ImageView)findViewById(R.id.dog_formula_img_formula);
         imgFormula.setBackgroundResource(nResFormula);
+
+        Button btnBeagle = (Button)findViewById(R.id.dog_btn_beagle);
+        btnBeagle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_BEAGLE)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_BEAGLE);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_BEAGLE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button BtnBulldog = (Button)findViewById(R.id.dog_btn_bulldog);
+        BtnBulldog.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_BULLDOG)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_BULLDOG);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_BULLDOG)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnChihuahua = (Button)findViewById(R.id.dog_btn_chihuahua);
+        btnChihuahua.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_CHIHUAHUA)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_CHIHUAHUA);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_CHIHUAHUA)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnGerman = (Button)findViewById(R.id.dog_btn_german);
+        btnGerman.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_GERMAN)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_GERMAN);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_GERMAN)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnLabrador = (Button)findViewById(R.id.dog_btn_labrador);
+        btnLabrador.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_LABRADOR)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_LABRADOR);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_LABRADOR)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnShih = (Button)findViewById(R.id.dog_btn_shih);
+        btnShih.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_SHIH)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_SHIH);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_SHIH)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnWestie = (Button)findViewById(R.id.dog_btn_westie);
+        btnWestie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_WESTIE)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_WESTIE);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_WESTIE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnYorkie = (Button)findViewById(R.id.dog_btn_yorkie);
+        btnYorkie.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedFood == CommonData.BREED_YORKIE)
+                    return;
+
+                _appPrefs.setSelectedFood(CommonData.BREED_YORKIE);
+
+                Intent intent = new Intent(DogFormulaActivity.this, DogFormulaActivity.class);
+                startActivity(intent);
+                if (selectedFood < CommonData.BREED_YORKIE)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
 
         ResolutionSet._instance.iterateChild(findViewById(R.id.layout_dog_formula));
     }

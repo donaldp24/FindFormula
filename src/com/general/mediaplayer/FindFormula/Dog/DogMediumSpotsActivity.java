@@ -53,6 +53,9 @@ public class DogMediumSpotsActivity extends BaseSpotsActivity {
         btnFindFormula.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                _appPrefs.setSelectedFood(CommonData.LIFESTYLE_MEDIUM);
+
                 Intent intent = new Intent(DogMediumSpotsActivity.this, DogMediumFormulaActivity.class);
                 startActivity(intent);
                 overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
@@ -135,6 +138,109 @@ public class DogMediumSpotsActivity extends BaseSpotsActivity {
             }
         });
 
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        final int selectedLifestyle = _appPrefs.getSelectedLifestyle();
+
+        Button btnXsmall = (Button)findViewById(R.id.dog_btn_xsmall);
+        btnXsmall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_XSMALL)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_XSMALL);
+
+                Intent intent = new Intent(DogMediumSpotsActivity.this, DogXsmallSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_XSMALL)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnMini = (Button)findViewById(R.id.dog_btn_mini);
+        btnMini.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_MINI)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_MINI);
+
+                Intent intent = new Intent(DogMediumSpotsActivity.this, DogMiniSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_MINI)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnMedium = (Button)findViewById(R.id.dog_btn_medium);
+        btnMedium.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_MEDIUM)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_MEDIUM);
+
+                Intent intent = new Intent(DogMediumSpotsActivity.this, DogMediumSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_MEDIUM)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnMaxi = (Button)findViewById(R.id.dog_btn_maxi);
+        btnMaxi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_MAXI)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_MAXI);
+
+                Intent intent = new Intent(DogMediumSpotsActivity.this, DogMaxiSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_MAXI)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
+
+        Button btnGiant = (Button)findViewById(R.id.dog_btn_giant);
+        btnGiant.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if (selectedLifestyle == CommonData.LIFESTYLE_GIANT)
+                    return;
+
+                _appPrefs.setSelectedLifestyle(CommonData.LIFESTYLE_GIANT);
+
+                Intent intent = new Intent(DogMediumSpotsActivity.this, DogGiantSpotsActivity.class);
+                startActivity(intent);
+                if (selectedLifestyle < CommonData.LIFESTYLE_GIANT)
+                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+                else
+                    overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+                finish();
+            }
+        });
 
         ResolutionSet._instance.iterateChild(findViewById(R.id.layout_dog_medium_spots));
     }
