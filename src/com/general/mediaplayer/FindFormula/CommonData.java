@@ -31,6 +31,9 @@ public class CommonData {
 
     public static final int VIDEO_LOOPING = 1;
     public static final int START_SERVER = 1;
+
+
+    // You have to set this flag as 1 to be enable lighting.
     public static final int USE_SERIAL = 0;
 
 
@@ -77,7 +80,9 @@ public class CommonData {
 
     public static final int SELECTED_LIFESTYLE = LIFESTYLE_KITTEN;
 
-    // led sub id -------------------------------------------------------
+    // these are subids for lights of every kind-------------------------------------------------------
+    // for example subid == 0(light==0) is matching with the kind "manie coon".
+    // cat
     public static final int SUBID_MAINECOON = 0;
     public static final int SUBID_PERSIAN = 1;
     public static final int SUBID_RAGDOLL = 2;
@@ -88,6 +93,7 @@ public class CommonData {
     public static final int SUBID_SPECIAL = 7;
     public static final int SUBID_WET = 8;
 
+    // dog
     public static final int SUBID_BEAGLE = 0;
     public static final int SUBID_BULLDOG = 1;
     public static final int SUBID_CHIHUAHUA = 2;

@@ -81,7 +81,7 @@ public class ScanMediaActivity extends BaseActivity {
             }
         });
 
-        Point ptSize = ResolutionSet.getScreenSize(ScanMediaActivity.this, false, false);
+        Point ptSize = ResolutionSet.getScreenSize(ScanMediaActivity.this, true, false);
         ResolutionSet._instance.setResolution(ptSize.x, ptSize.y, false);
         if (CommonData.APP_CATEGORY == CommonData.CATEGORY_CAT)
             ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_cat));
