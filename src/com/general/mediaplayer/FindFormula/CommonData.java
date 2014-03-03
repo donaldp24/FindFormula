@@ -34,7 +34,11 @@ public class CommonData {
 
 
     // You have to set this flag as 1 to be enable lighting.
-    public static final int USE_SERIAL = 1;
+    public static final int LIGHT_NONE = -1;
+    public static final int LIGHT_COMM = 0;
+    public static final int LIGHT_USBHID = 1;
+
+    public static final int LIGHT_MODE = LIGHT_USBHID;
 
 
     //enum for transform

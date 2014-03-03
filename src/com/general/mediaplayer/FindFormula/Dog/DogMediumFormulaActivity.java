@@ -164,10 +164,9 @@ public class DogMediumFormulaActivity extends BaseFormulaActivity {
             @Override
             public void onClick(View v) {
                 // turn LED on
-                if (CommonData.USE_SERIAL == 1)
-                {
+
                     SendSubN(CommonData.SUBID_MEDIUM_DIGESTION);
-                }
+
             }
         });
 
@@ -176,10 +175,9 @@ public class DogMediumFormulaActivity extends BaseFormulaActivity {
             @Override
             public void onClick(View v) {
                 // turn LED on
-                if (CommonData.USE_SERIAL == 1)
-                {
+
                     SendSubN(CommonData.SUBID_MEDIUM_WEIGHT);
-                }
+
             }
         });
 

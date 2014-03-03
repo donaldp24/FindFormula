@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android_serialport_api.SerialPort;
+import hidusb.UsbManager;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -66,9 +67,9 @@ public class BaseFormulaActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
 
         // related with serial
-        if (CommonData.USE_SERIAL == 1)
+        mApplication = (Application) getApplication();
+        if (CommonData.LIGHT_MODE == CommonData.LIGHT_COMM)
         {
-            mApplication = (Application) getApplication();
             try {
                 mSerialPort = mApplication.getSerialPort();
                 mOutputStream = mSerialPort.getOutputStream();
@@ -90,19 +91,12 @@ public class BaseFormulaActivity extends BaseActivity {
     @Override
     public void onStart() {
         super.onStart();
-
-        // turn LED on
-        //if (CommonData.USE_SERIAL == 1)
-        //{
-        //    SendSubN(subId);
-        //}
-
     }
 
     @Override
     public void onDestroy() {
 
-        if (CommonData.USE_SERIAL == 1)
+        if (CommonData.LIGHT_MODE == CommonData.LIGHT_COMM)
         {
             if (mReadThread != null)
                 mReadThread.interrupt();
@@ -140,36 +134,44 @@ public class BaseFormulaActivity extends BaseActivity {
 
     protected boolean SendSubN(int SubID)
     {
+        if (CommonData.LIGHT_MODE == CommonData.LIGHT_COMM ) {
+            int i=0;
+            int j=0;
+            boolean ret=false;
+            byte[] buffer = new byte[5];
+            byte SubIDTemp;
+            SubIDTemp=(byte)SubID;
+            if(SubID>0)
+            {
 
-        int i=0;
-        int j=0;
-        boolean ret=false;
-        byte[] buffer = new byte[5];
-        byte SubIDTemp;
-        SubIDTemp=(byte)SubID;
-        if(SubID>0)
+                SubIDTemp=(byte)(SubID-1);
+
+            }
+            buffer[i++]=(byte)0xF5;
+            buffer[i++]=0x04;
+            buffer[i++]=0x01;
+            buffer[i++]=SubIDTemp;
+            buffer[i]=0x00;
+            for(j=0;j<i;j++)
+            {
+                buffer[i]=(byte)(buffer[i]+buffer[j]);
+            }
+            try {
+                if (mOutputStream != null)
+                    mOutputStream.write(buffer);
+                ret=true;
+                //mOutputStream.write('\n');
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return ret;
+        }
+        else if (CommonData.LIGHT_MODE == CommonData.LIGHT_USBHID)
         {
-
-            SubIDTemp=(byte)(SubID-1);
-
+            UsbManager usbManager = mApplication.getUsbManager();
+            return usbManager.SendSubN(SubID);
         }
-        buffer[i++]=(byte)0xF5;
-        buffer[i++]=0x04;
-        buffer[i++]=0x01;
-        buffer[i++]=SubIDTemp;
-        buffer[i]=0x00;
-        for(j=0;j<i;j++)
-        {
-            buffer[i]=(byte)(buffer[i]+buffer[j]);
-        }
-        try {
-            if (mOutputStream != null)
-                mOutputStream.write(buffer);
-            ret=true;
-            //mOutputStream.write('\n');
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return ret;
+        else
+            return false;
     }
 }

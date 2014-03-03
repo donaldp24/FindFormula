@@ -17,6 +17,7 @@
 package com.general.mediaplayer.FindFormula;
 
 import android_serialport_api.SerialPort;
+import hidusb.UsbManager;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,6 +27,7 @@ public class Application extends android.app.Application {
 
 	//public SerialPortFinder mSerialPortFinder = new SerialPortFinder();
 	private SerialPort mSerialPort = null;
+    private UsbManager mUsbManager = null;
 
 	public SerialPort getSerialPort() throws SecurityException, IOException, InvalidParameterException {
 
@@ -43,10 +45,7 @@ public class Application extends android.app.Application {
 			}
 
 			/* Open the serial port */
-            if (CommonData.USE_SERIAL == 1)
-			    mSerialPort = new SerialPort(new File(path), baudrate, 0);
-            else
-                mSerialPort = null;
+		    mSerialPort = new SerialPort(new File(path), baudrate, 0);
 		}
 		return mSerialPort;
 	}
@@ -57,4 +56,10 @@ public class Application extends android.app.Application {
 			mSerialPort = null;
 		}
 	}
+
+    public UsbManager getUsbManager() {
+        if (mUsbManager == null)
+            mUsbManager = new UsbManager();
+        return mUsbManager;
+    }
 }

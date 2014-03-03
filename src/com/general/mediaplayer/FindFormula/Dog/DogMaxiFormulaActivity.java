@@ -169,9 +169,8 @@ public class DogMaxiFormulaActivity extends BaseFormulaActivity {
         super.onStart();
 
         // light
-        if (CommonData.USE_SERIAL == 1)
-        {
+
             SendSubN(subId);
-        }
+
     }
 }

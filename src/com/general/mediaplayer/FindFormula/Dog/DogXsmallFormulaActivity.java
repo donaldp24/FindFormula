@@ -165,10 +165,7 @@ public class DogXsmallFormulaActivity extends BaseFormulaActivity {
             @Override
             public void onClick(View v) {
                 // turn LED on
-                if (CommonData.USE_SERIAL == 1)
-                {
-                    SendSubN(CommonData.SUBID_XSMALL_MATURE);
-                }
+                SendSubN(CommonData.SUBID_XSMALL_MATURE);
             }
         });
 
@@ -177,10 +174,7 @@ public class DogXsmallFormulaActivity extends BaseFormulaActivity {
             @Override
             public void onClick(View v) {
                 // turn LED on
-                if (CommonData.USE_SERIAL == 1)
-                {
-                    SendSubN(CommonData.SUBID_XSMALL_AGING);
-                }
+                 SendSubN(CommonData.SUBID_XSMALL_AGING);
             }
         });
 

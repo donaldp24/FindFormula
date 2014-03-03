@@ -10,6 +10,7 @@ import com.general.mediaplayer.FindFormula.Cat.CatBreedSelActivity;
 import com.general.mediaplayer.FindFormula.Cat.CatLifestyleSelActivity;
 import com.general.mediaplayer.FindFormula.Dog.DogBreedSelActivity;
 import com.general.mediaplayer.FindFormula.Dog.DogLifestyleSelActivity;
+import hidusb.UsbManager;
 
 public class ScanMediaActivity extends BaseActivity {
     /**
@@ -87,5 +88,9 @@ public class ScanMediaActivity extends BaseActivity {
             ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_cat));
         else
             ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_dog));
+
+        Application application = (Application) getApplication();
+        UsbManager usbManager = application.getUsbManager();
+        usbManager.startUsb();
     }
 }
