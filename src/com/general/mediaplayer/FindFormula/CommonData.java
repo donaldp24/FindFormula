@@ -34,7 +34,7 @@ public class CommonData {
 
 
     // You have to set this flag as 1 to be enable lighting.
-    public static final int USE_SERIAL = 0;
+    public static final int USE_SERIAL = 1;
 
 
     //enum for transform
