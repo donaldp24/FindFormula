@@ -10,7 +10,7 @@ import com.general.mediaplayer.FindFormula.Cat.CatBreedSelActivity;
 import com.general.mediaplayer.FindFormula.Cat.CatLifestyleSelActivity;
 import com.general.mediaplayer.FindFormula.Dog.DogBreedSelActivity;
 import com.general.mediaplayer.FindFormula.Dog.DogLifestyleSelActivity;
-import hidusb.UsbManager;
+import com.hklt.hidusb.UsbManager;
 
 public class ScanMediaActivity extends BaseActivity {
     /**
@@ -89,8 +89,11 @@ public class ScanMediaActivity extends BaseActivity {
         else
             ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_dog));
 
+        if (CommonData.LIGHT_MODE == CommonData.LIGHT_USBHID)
+        {
         Application application = (Application) getApplication();
         UsbManager usbManager = application.getUsbManager();
         usbManager.startUsb();
+        }
     }
 }
