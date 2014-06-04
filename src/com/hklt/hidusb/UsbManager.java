@@ -1,8 +1,6 @@
-package hidusb;
+package com.hklt.hidusb;
 
 import android.util.Log;
-import hidusb.Hidusb;
-import hidusb.UsbHidCmd;
 
 /**
  * Created by donald on 3/3/14.
@@ -24,21 +22,17 @@ public class UsbManager {
 
     private int[] mSendDataResponse = null;
 
-    public void startUsb() {
-
+    public UsbManager() {
         mUsbHidCmd = new UsbHidCmd();
-        if (mHidusb == null)
-        {
-            try
-            {
-                mHidusb = Hidusb.newInstance();
-
-            }catch (Exception e)
-            {
-                //
-            }
+        try {
+            mHidusb = Hidusb.newInstance();
+        } catch (Exception e) {
+            //Toast.makeText(this, e.getMessage(), 3000).show();
+            //showToast(e.getMessage(), 3000);
+            //finish();
         }
-
+    }
+    public void startUsb() {
         if (mReady == true) {
             if (mListener != null)
                 mListener.onUsbReady(true);
@@ -99,8 +93,7 @@ public class UsbManager {
         return setBlockData(1, ActiveSlave);
     }
 
-    private synchronized int[] usbHidSendData(int[] sendUidData){
-
+    private synchronized int[]  usbHidSendData(int[] sendUidData){
         mSendDataResponse =mHidusb.sendData(sendUidData);
         return mSendDataResponse;
     }

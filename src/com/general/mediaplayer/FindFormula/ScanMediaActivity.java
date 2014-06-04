@@ -10,8 +10,7 @@ import com.general.mediaplayer.FindFormula.Cat.CatBreedSelActivity;
 import com.general.mediaplayer.FindFormula.Cat.CatLifestyleSelActivity;
 import com.general.mediaplayer.FindFormula.Dog.DogBreedSelActivity;
 import com.general.mediaplayer.FindFormula.Dog.DogLifestyleSelActivity;
-import com.general.mediaplayer.FindFormula.Dog.DogSizeSelActivity;
-import hidusb.UsbManager;
+import com.hklt.hidusb.UsbManager;
 
 public class ScanMediaActivity extends BaseActivity {
     /**
@@ -83,25 +82,6 @@ public class ScanMediaActivity extends BaseActivity {
             }
         });
 
-        // size button
-        if (CommonData.APP_CATEGORY == CommonData.CATEGORY_DOG)
-        {
-            Button btnSize = (Button)findViewById(R.id.start_btn_size);
-            btnSize.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-
-                    _appPrefs.setSelectedBasic(CommonData.BASIC_SIZE);
-
-                    Intent intent = new Intent(ScanMediaActivity.this, DogSizeSelActivity.class);
-                    startActivity(intent);
-                    overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
-                    finish();
-
-                }
-            });
-        }
-
         Point ptSize = ResolutionSet.getScreenSize(ScanMediaActivity.this, true, false);
         ResolutionSet._instance.setResolution(ptSize.x, ptSize.y, false);
         if (CommonData.APP_CATEGORY == CommonData.CATEGORY_CAT)
@@ -109,10 +89,11 @@ public class ScanMediaActivity extends BaseActivity {
         else
             ResolutionSet._instance.iterateChild(findViewById(R.id.layout_main_dog));
 
-
+        if (CommonData.LIGHT_MODE == CommonData.LIGHT_USBHID)
+        {
         Application application = (Application) getApplication();
         UsbManager usbManager = application.getUsbManager();
         usbManager.startUsb();
-
+        }
     }
 }

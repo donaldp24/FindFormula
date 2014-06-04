@@ -17,7 +17,7 @@
 package com.general.mediaplayer.FindFormula;
 
 import android_serialport_api.SerialPort;
-import hidusb.UsbManager;
+import com.hklt.hidusb.UsbManager;
 
 import java.io.File;
 import java.io.IOException;

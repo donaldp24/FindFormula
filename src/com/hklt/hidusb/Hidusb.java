@@ -1,4 +1,4 @@
-package hidusb;
+package com.hklt.hidusb;
 
 import android.os.Handler;
 

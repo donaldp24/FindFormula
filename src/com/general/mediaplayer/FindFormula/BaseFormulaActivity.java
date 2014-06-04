@@ -1,13 +1,12 @@
 package com.general.mediaplayer.FindFormula;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android_serialport_api.SerialPort;
-import hidusb.UsbManager;
+import com.hklt.hidusb.UsbManager;
 
 import java.io.IOException;
 import java.io.InputStream;
