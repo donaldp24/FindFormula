@@ -18,6 +18,7 @@ public class AppPreferences {
     private static final String KEY_BASIC = "Basic";
     private static final String KEY_BREED = "Breed";
     private static final String KEY_LIFESTYLE = "Lifestyle";
+    private static final String KEY_SIZE = "Size";
     private static final String KEY_FOOD = "Food";
 
     private SharedPreferences shared_preferences;
@@ -43,6 +44,9 @@ public class AppPreferences {
     public int getSelectedLifestyle() {
         return shared_preferences.getInt(KEY_LIFESTYLE, CommonData.getDefaultLifestyle());
     }
+    public int getSelectedSize() {
+        return shared_preferences.getInt(KEY_SIZE, CommonData.getDefaultSize());
+    }
 
     public void setSelectedBasic(int selectedBasic) {
         shared_preferences_editor.putInt(KEY_BASIC, selectedBasic);
@@ -61,6 +65,11 @@ public class AppPreferences {
 
     public void setSelectedFood(int selectedFood) {
         shared_preferences_editor.putInt(KEY_FOOD, selectedFood);
+        shared_preferences_editor.commit();
+    }
+
+    public void setSelectedSize(int selectedSize) {
+        shared_preferences_editor.putInt(KEY_SIZE, selectedSize);
         shared_preferences_editor.commit();
     }
 }

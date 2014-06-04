@@ -2,7 +2,9 @@
 <resources>
     <color name="BreedBgColor">#d9ba67</color>
     <color name="LifestyleBgColor">#868788</color>
+	<color name="DogLifestyleColor">#aeaeae</color>
 	<color name="Transparent">#00000000</color>
 	<color name="DarkGrayColor">#87888a</color>
+
 	<color name="RedColor">#FF0000</color>
 </resources>

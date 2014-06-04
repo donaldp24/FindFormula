@@ -275,6 +275,48 @@
 				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
 				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
 				/>
+		<activity android:name=".Dog.DogSizeSelActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Dog.DogUrbanSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Dog.DogUrbanFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Dog.DogIndoorSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Dog.DogIndoorFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Dog.DogSportingSpotsActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
+		<activity android:name=".Dog.DogSportingFormulaActivity"
+				  android:launchMode="singleInstance"
+				  android:label="@string/app_name"
+				  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+				  android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"
+				/>
 		<activity android:name=".BaseFormulaActivity"/>
 
 

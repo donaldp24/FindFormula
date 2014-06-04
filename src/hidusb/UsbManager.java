@@ -25,6 +25,20 @@ public class UsbManager {
     private int[] mSendDataResponse = null;
 
     public void startUsb() {
+
+        mUsbHidCmd = new UsbHidCmd();
+        if (mHidusb == null)
+        {
+            try
+            {
+                mHidusb = Hidusb.newInstance();
+
+            }catch (Exception e)
+            {
+                //
+            }
+        }
+
         if (mReady == true) {
             if (mListener != null)
                 mListener.onUsbReady(true);
@@ -86,6 +100,7 @@ public class UsbManager {
     }
 
     private synchronized int[] usbHidSendData(int[] sendUidData){
+
         mSendDataResponse =mHidusb.sendData(sendUidData);
         return mSendDataResponse;
     }

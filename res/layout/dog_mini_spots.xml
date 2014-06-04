@@ -17,23 +17,14 @@
 			android:background="@drawable/cat_constant_spot_explain"
 			/>
 
-	<!-- breed button -->
+	<!-- home button -->
 	<Button
-			android:id="@+id/dog_mini_spots_btn_breed"
+			android:id="@+id/dog_home"
 			android:layout_marginLeft="0px"
 			android:layout_marginTop="0px"
-			android:layout_width="125px"
-			android:layout_height="113px"
-			android:background="@drawable/cat_constant_btn_breed"
-			/>
-	<!-- lifestyle button -->
-	<Button
-			android:id="@+id/dog_mini_spots_btn_lifestyle"
-			android:layout_marginLeft="125px"
-			android:layout_marginTop="0px"
-			android:layout_width="204px"
-			android:layout_height="113px"
-			android:background="@drawable/cat_constant_btn_lifestyle"
+			android:layout_width="224px"
+			android:layout_height="105px"
+			android:background="@drawable/dog_constant_home"
 			/>
 	<!-- find formula button -->
 	<Button
@@ -120,16 +111,16 @@
 	<ImageView
 			android:layout_marginLeft="400px"
 			android:layout_marginTop="51px"
-			android:layout_width="551px"
-			android:layout_height="614px"
+			android:layout_width="704px"
+			android:layout_height="577px"
 			android:background="@drawable/dog_mini_dog"
 			/>
 
 	<!-- spot buttons -->
 	<Button
 			android:id="@+id/dog_mini_spots_btn_spot1"
-			android:layout_marginLeft="590px"
-			android:layout_marginTop="292px"
+			android:layout_marginLeft="730px"
+			android:layout_marginTop="262px"
 			android:layout_width="110px"
 			android:layout_height="110px"
 			android:background="@drawable/cat_constant_btn_spot"
@@ -137,8 +128,8 @@
 
 	<Button
 			android:id="@+id/dog_mini_spots_btn_spot2"
-			android:layout_marginLeft="690px"
-			android:layout_marginTop="480px"
+			android:layout_marginLeft="800px"
+			android:layout_marginTop="430px"
 			android:layout_width="110px"
 			android:layout_height="110px"
 			android:background="@drawable/cat_constant_btn_spot"
@@ -146,8 +137,8 @@
 
 	<Button
 			android:id="@+id/dog_mini_spots_btn_spot3"
-			android:layout_marginLeft="688px"
-			android:layout_marginTop="187px"
+			android:layout_marginLeft="898px"
+			android:layout_marginTop="162px"
 			android:layout_width="110px"
 			android:layout_height="110px"
 			android:background="@drawable/cat_constant_btn_spot"

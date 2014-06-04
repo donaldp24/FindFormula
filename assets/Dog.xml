@@ -529,3 +529,137 @@
 	<COPY>Formulas support a Giant-sized dog’s natural defenses with an antioxidant complex and mannan oligosaccharides.</COPY>
 	<LINK>Find GIANT DOG Formula</LINK>
 </Item>
+<Item>
+	<UID>53</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>URBAN</NAME>
+	<HOTSPOT>0</HOTSPOT>
+	<HOTSPOTNAME>FOOT</HOTSPOTNAME>
+	<HEADLINE>SUPPORTS CHANGING ENVIRONMENTS</HEADLINE>
+	<COPY>Urban dogs experience crowds, traffic and noise daily, and they may be exposed to the effects of oxidation resulting from a polluted environment. URBAN LIFE formulas include specific nutrients from fish (polypeptides) to help support cellular health.  </COPY>
+	<LINK>Find URBAN LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>54</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>URBAN</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>HEAD</HOTSPOTNAME>
+	<HEADLINE>VIVACITY</HEADLINE>
+	<COPY>URBAN LIFE formulas contain nutrients to support healthy brain function and awareness in busy, changing environments.</COPY>
+	<LINK>Find URBAN LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>55</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>URBAN</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>EVERY LIFESTAGE</HEADLINE>
+	<COPY>The URBAN LIFE range includes formulas for puppies, adult dogs and maturing dogs. And includes options for small dogs up to 22 lbs. and large dogs weighing over 23 lbs.</COPY>
+	<LINK>Find URBAN LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>56</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>URBAN</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>KIBBLE</HOTSPOTNAME>
+	<HEADLINE>EASILY BREAKABLE KIBBLE</HEADLINE>
+	<COPY>The unique shape, texture and size of URBAN LIFE formula kibbles make it easy to grasp and crunch, thus encouraging chewing for dogs of different sizes.</COPY>
+	<LINK>Find URBAN LIFE Formulas</LINK>
+</Item>
+
+<Item>
+	<UID>57</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>INDOOR</NAME>
+	<HOTSPOT>0</HOTSPOT>
+	<HOTSPOTNAME>STOMACH</HOTSPOTNAME>
+	<HEADLINE>DIGESTIVE HEALTH</HEADLINE>
+	<COPY>INDOOR formulas contain highly digestible proteins, precise levels of fibers and high quality carbohydrate sources to help support digestive health and reduce fecal smell and volume.</COPY>
+	<LINK>Find INDOOR LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>58</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>INDOOR</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>BODY</HOTSPOTNAME>
+	<HEADLINE>IDEAL BODY CONDITION</HEADLINE>
+	<COPY>Indoor dogs tend to be less active and excess weight can affect their health. The INDOOR LIFE formulas help support a healthy body condition with a precise calorie content for the reduced energy needs of small dogs. </COPY>
+	<LINK>Find INDOOR LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>59</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>INDOOR</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>FUR</HOTSPOTNAME>
+	<HEADLINE>SKIN & COAT HEALTH</HEADLINE>
+	<COPY>The INDOOR LIFE formulas contains nutrients, including Omega 3 fatty acids (EPA and DHA), to help support a healthy skin and coat.</COPY>
+	<LINK>Find INDOOR LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>60</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>INDOOR</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>EVERY LIFESTAGE</HEADLINE>
+	<COPY>The INDOOR LIFE range includes formulas for small puppies, adult dogs and maturing dogs weighing up to 22 lbs. </COPY>
+	<LINK>Find INDOOR LIFE Formulas</LINK>
+</Item>
+
+
+
+<Item>
+	<UID>61</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>SPORTING</NAME>
+	<HOTSPOT>0</HOTSPOT>
+	<HOTSPOTNAME>HEAD</HOTSPOTNAME>
+	<HEADLINE>SPORT PERFORMANCE</HEADLINE>
+	<COPY> “Sport Performance +” is an exclusive combination of nutrients that helps maintain healthy joints with glucosamine and chondroitin, supports a healthy digestive system with highly digestible proteins and specific fibers, and helps neutralize free radicals with a patented cocktail of antioxidants and beta carotene.</COPY>
+	<LINK>Find SPORTING LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>62</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>SPORTING</NAME>
+	<HOTSPOT>1</HOTSPOT>
+	<HOTSPOTNAME>BODY</HOTSPOTNAME>
+	<HEADLINE>ENERGY</HEADLINE>
+	<COPY>Royal Canin SPORTING LIFE AGILITY 4100 contains high level of carbohydrates (42% min) to provide energy that can be quickly used to maximize performance of sporting dogs during short periods of intense activity. </COPY>
+	<LINK>Find SPORTING LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>63</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>SPORTING</NAME>
+	<HOTSPOT>2</HOTSPOT>
+	<HOTSPOTNAME>BODY</HOTSPOTNAME>
+	<HEADLINE>CONTINUAL ENERGY</HEADLINE>
+	<COPY>Royal Canin SPORTING LIFE TRAIL 4300 contains a balanced level of carbohydrates (29% min) and fatty acids (19% min). Carbohydrates provide energy which can be used quickly at the beginning of the physical effort, while fatty acids are used gradually over the exercise period to maximize performance of sporting dogs with long periods of sustained activity.</COPY>
+	<LINK>Find SPORTING LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>64</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>SPORTING</NAME>
+	<HOTSPOT>3</HOTSPOT>
+	<HOTSPOTNAME>BODY</HOTSPOTNAME>
+	<HEADLINE>EXTENDED ENERGY</HEADLINE>
+	<COPY>Royal Canin SPORTING LIFE ENDURANCE 4800 contains a high level of fatty acids (28% min) to provide a high level of energy that can be used gradually over the endurance effort to maximize performance of sporting and working dogs with very long periods of sustained activity. </COPY>
+	<LINK>Find SPORTING LIFE Formulas</LINK>
+</Item>
+<Item>
+	<UID>65</UID>
+	<CATEGORY>0</CATEGORY>
+	<NAME>SPORTING</NAME>
+	<HOTSPOT>4</HOTSPOT>
+	<HOTSPOTNAME>LEG</HOTSPOTNAME>
+	<HEADLINE>MUSCLE CONDITION</HEADLINE>
+	<COPY>Due to a high level of protein, SPORTING LIFE formulas support oxygen delivery to muscles and helps maintain muscle mass.</COPY>
+	<LINK>Find SPORTING LIFE Formulas</LINK>
+</Item>

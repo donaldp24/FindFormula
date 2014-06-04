@@ -3,6 +3,7 @@ package com.general.mediaplayer.FindFormula;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android_serialport_api.SerialPort;
@@ -173,5 +174,23 @@ public class BaseFormulaActivity extends BaseActivity {
         }
         else
             return false;
+    }
+
+    public void onBtnSibilingClickedWithSize(int size, Class<?> cls) {
+
+        final int selectedSize = _appPrefs.getSelectedFood();
+        if (selectedSize == size)
+            return;
+
+        _appPrefs.setSelectedFood(size);
+
+        Intent intent = new Intent(BaseFormulaActivity.this, cls);
+        startActivity(intent);
+        if (selectedSize < size)
+            overridePendingTransition(TransformManager.GetContinueInAnim(), TransformManager.GetContinueOutAnim());
+        else
+            overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
+        finish();
+
     }
 }

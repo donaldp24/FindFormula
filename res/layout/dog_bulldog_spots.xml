@@ -17,23 +17,14 @@
 			android:background="@drawable/cat_constant_spot_explain"
 			/>
 
-	<!-- breed button -->
+	<!-- home button -->
 	<Button
-			android:id="@+id/dog_bulldog_spots_btn_breed"
+			android:id="@+id/dog_home"
 			android:layout_marginLeft="0px"
 			android:layout_marginTop="0px"
-			android:layout_width="125px"
-			android:layout_height="113px"
-			android:background="@drawable/cat_constant_btn_breed"
-			/>
-	<!-- lifestyle button -->
-	<Button
-			android:id="@+id/dog_bulldog_spots_btn_lifestyle"
-			android:layout_marginLeft="125px"
-			android:layout_marginTop="0px"
-			android:layout_width="204px"
-			android:layout_height="113px"
-			android:background="@drawable/cat_constant_btn_lifestyle"
+			android:layout_width="224px"
+			android:layout_height="105px"
+			android:background="@drawable/dog_constant_home"
 			/>
 	<!-- find formula button -->
 	<Button

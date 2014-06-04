@@ -19,31 +19,16 @@ import java.util.ArrayList;
  */
 public class DogXsmallSpotsActivity extends BaseSpotsActivity {
 
-    ArrayList<STDetailInfo> dogSpotsList = null;
-    Button btnFindFormula = null;
-
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dog_xsmall_spots);
 
-        // breed button (go back to dog breed sel screen)
-        Button btnBreed = (Button)findViewById(R.id.dog_xsmall_spots_btn_breed);
-        btnBreed.setOnClickListener(new View.OnClickListener() {
+        // home button (go back to dog home screen)
+        Button btnHome = (Button)findViewById(R.id.dog_home);
+        btnHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(DogXsmallSpotsActivity.this, DogBreedSelActivity.class);
-                startActivity(intent);
-                overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
-                finish();
-            }
-        });
-
-        // lifestyle button (go back to dog lifestyle sel screen)
-        Button btnLifestyle = (Button)findViewById(R.id.dog_xsmall_spots_btn_lifestyle);
-        btnLifestyle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(DogXsmallSpotsActivity.this, DogLifestyleSelActivity.class);
+                Intent intent = new Intent(DogXsmallSpotsActivity.this, ScanMediaActivity.class);
                 startActivity(intent);
                 overridePendingTransition(TransformManager.GetBackInAnim(), TransformManager.GetBackOutAnim());
                 finish();

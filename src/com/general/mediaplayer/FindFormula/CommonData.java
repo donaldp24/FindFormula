@@ -51,6 +51,7 @@ public class CommonData {
 
     public static final int BASIC_BREED = 0;
     public static final int BASIC_LIFESTYLE = 1;
+    public static final int BASIC_SIZE = 2;
 
     public static final int SELECTED_BASIC = BASIC_BREED;
 
@@ -84,6 +85,12 @@ public class CommonData {
 
     public static final int SELECTED_LIFESTYLE = LIFESTYLE_KITTEN;
 
+    public static final int SIZE_URBAN = 0;
+    public static final int SIZE_INDOOR = 1;
+    public static final int SIZE_SPORTING = 2;
+
+    public static final int SELECTED_SIZE = SIZE_URBAN;
+
     // these are subids for lights of every kind-------------------------------------------------------
     // for example subid == 0(light==0) is matching with the kind "manie coon".
     // cat
@@ -115,6 +122,16 @@ public class CommonData {
     public static final int SUBID_MEDIUM_WEIGHT = 3;
     public static final int SUBID_MAXI = 8;
     public static final int SUBID_GIANT = 4;
+    //dog(size)
+    public static final int SUBID_URBAN_JUNIOR = 1;
+    public static final int SUBID_URBAN_ADULT = 2;
+    public static final int SUBID_URBAN_SENIOR = 3;
+    public static final int SUBID_INDOOR_JUNIOR = 4;
+    public static final int SUBID_INDOOR_ADULT = 5;
+    public static final int SUBID_INDOOR_SENIOR = 6;
+    public static final int SUBID_SPORTING_AGILITY = 7;
+    public static final int SUBID_SPORTING_TRAIL = 8;
+
 
     public static DataManager GetDataMgr(){
         if (dataMgr == null)
@@ -142,6 +159,10 @@ public class CommonData {
     public static int getDefaultLifestyle()
     {
         return LIFESTYLE_KITTEN;
+    }
+    public static int getDefaultSize()
+    {
+        return SIZE_URBAN;
     }
 
     public static int getDefaultFood() {

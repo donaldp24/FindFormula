@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/layout_dog_sizesel"
+                android:orientation="vertical"
+                android:layout_width="1280px"
+                android:layout_height="800px"
+                android:background="@drawable/cat_lifestyle_bg">
+
+	<!--  ////////////////// lifestyle buttons  ///////////////////// -->
+	<!-- xsmall -->
+	<Button
+			android:id="@+id/dog_size_btn_urban"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="426px"
+			android:layout_height="768px"
+			android:background="@drawable/dog_size_urban"
+			/>
+	<!-- mini -->
+	<Button
+			android:id="@+id/dog_size_btn_indoor"
+			android:layout_marginLeft="423px"
+			android:layout_marginTop="0px"
+			android:layout_width="434px"
+			android:layout_height="768px"
+			android:background="@drawable/dog_size_indoor"
+			/>
+	<!-- medium -->
+	<Button
+			android:id="@+id/dog_size_btn_sporting"
+			android:layout_marginLeft="855px"
+			android:layout_marginTop="0px"
+			android:layout_width="425px"
+			android:layout_height="768px"
+			android:background="@drawable/dog_size_sporting"
+			/>
+
+
+	<!-- back button -->
+	<Button
+			android:id="@+id/dog_btn_back"
+			android:layout_marginLeft="0px"
+			android:layout_marginTop="0px"
+			android:layout_width="270px"
+			android:layout_height="80px"
+			android:background="@drawable/cat_lifestyle_btn_back"
+			/>
+
+</RelativeLayout>
